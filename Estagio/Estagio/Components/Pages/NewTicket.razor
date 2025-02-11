@@ -1,0 +1,173 @@
+﻿@page "/novoticket"
+@using DevExpress.Blazor
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+<div class="card cw-480">
+    <EditForm Model="@newTicket" OnValidSubmit="@HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <div class="card-header text-center py-3">
+            <h4>Criar Novo Ticket</h4>
+            <p class="tm-8 mb-0 fw-normal fs-825">
+                Preencha os detalhes para criar um novo ticket.
+            </p>
+        </div>
+        <div class="card-body">
+            <DxFormLayout>
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <label for="deDate" class="d-none">Data</label>
+                        <DxDateEdit @bind-Date="newTicket.Date"
+                                    ReadOnly="true"
+                                    NullText="Data de Criação"
+                                    InputId="deDate" />
+                        <div class="text-danger">
+                            <ValidationMessage For="@(() => newTicket.Date)" />
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Campo Título -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <label for="tbTitle" class="d-none">Título</label>
+                        <DxTextBox @bind-Text="newTicket.Title"
+                                   NullText="Título do Ticket"
+                                   ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
+                                   InputId="tbTitle" />
+                        <div class="text-danger">
+                            <ValidationMessage For="@(() => newTicket.Title)" />
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Campo Nome do Cliente -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <label for="tbNameClient" class="d-none">Nome do Cliente</label>
+                        <DxTextBox @bind-Text="newTicket.NameClient"
+                                   NullText="Nome do Cliente"
+                                   ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
+                                   InputId="tbNameClient" />
+                        <div class="text-danger">
+                            <ValidationMessage For="@(() => newTicket.NameClient)" />
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Campo Contato do Cliente -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <label for="tbClientContact" class="d-none">Contato do Cliente</label>
+                        <DxTextBox @bind-Text="newTicket.ClientContact"
+                                   NullText="Contato do Cliente"
+                                   ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
+                                   InputId="tbClientContact" />
+                        <div class="text-danger">
+                            <ValidationMessage For="@(() => newTicket.ClientContact)" />
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Campo Assunto -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <label for="tbAssunto" class="d-none">Assunto</label>
+                        <DxTextBox @bind-Text="newTicket.Assunto"
+                                   NullText="Assunto"
+                                   ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
+                                   InputId="tbAssunto" />
+                        <div class="text-danger">
+                            <ValidationMessage For="@(() => newTicket.Assunto)" />
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Upload de ficheiro -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <div class="upload-container">
+                            <div style="@(SelectedFilesCount > 0 ? "display: none" : string.Empty)">
+                                <span class="drop-file-icon mb-3"></span>
+                                <span class="drop-file-label mb-3">Click the Select File button to select files</span>
+                            </div>
+                            <DxButton Id="overviewDemoSelectButton"
+                                      CssClass="m-1"
+                                      RenderStyle="ButtonRenderStyle.Primary"
+                                      Text="Select File" />
+                            <DxFileInput AllowMultiFileUpload="true"
+                                         MaxFileSize="15000000"
+                                         ExternalSelectButtonCssSelector="#overviewDemoSelectButton"
+                                         FilesUploading="OnFilesUploading"
+                                         SelectedFilesChanged="@SelectedFilesChanged">
+                            </DxFileInput>
+                        </div>
+                    </ChildContent>
+                </DxFormLayoutItem>
+
+                <!-- Botão de Submissão -->
+                <DxFormLayoutItem ColSpanMd="12">
+                    <ChildContent Context="layoutContext">
+                        <DxButton CssClass="w-100"
+                                  RenderStyle="ButtonRenderStyle.Primary"
+                                  SubmitFormOnClick="true"
+                                  Text="Criar Ticket" />
+                    </ChildContent>
+                </DxFormLayoutItem>
+            </DxFormLayout>
+        </div>
+    </EditForm>
+</div>
+
+<p class="tm-8 cw-480 mt-2">@resultMessage</p>
+
+@code {
+ 
+    public class TicketModel
+    {
+        public string Title { get; set; }
+        public string NameClient { get; set; }
+        public string ClientContact { get; set; }
+        public string Assunto { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+    }
+
+    TicketModel newTicket = new TicketModel();
+    string resultMessage = "";
+
+
+    int SelectedFilesCount { get; set; }
+
+
+    protected void SelectedFilesChanged(IEnumerable<UploadFileInfo> files)
+    {
+        SelectedFilesCount = files.ToList().Count;
+        InvokeAsync(StateHasChanged);
+    }
+
+   
+    protected async Task OnFilesUploading(FilesUploadingEventArgs args)
+    {
+        foreach (var file in args.Files)
+        {
+            using var stream = new System.IO.MemoryStream();
+            await file.OpenReadStream(file.Size).CopyToAsync(stream);
+            
+        }
+    }
+
+
+    async Task HandleValidSubmit()
+    {
+        resultMessage = "Ticket criado com sucesso!";
+
+        // localstorage
+        await JS.InvokeVoidAsync("localStorage.setItem", "NameClient", newTicket.NameClient);
+        await JS.InvokeVoidAsync("localStorage.setItem", "ClientContact", newTicket.ClientContact);
+
+        newTicket = new TicketModel { Date = DateTime.Now };
+
+
+        Navigation.NavigateTo("/Comercial");
+    }
+}

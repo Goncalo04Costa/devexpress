@@ -1,0 +1,78 @@
+﻿@page "/ticket"
+@using Estagio.Services
+@inject TicketService TicketService
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
+<PageTitle>Tickets</PageTitle>
+<h1>Tickets</h1>
+
+<div class="filter-section">
+    <label for="deOverview" class="demo-text cw-320 mb-1">Date Range</label>
+    <DxDateRangePicker @bind-StartDate="DateTimeStart"
+                       @bind-EndDate="DateTimeEnd"
+                       CssClass="cw-320"
+                       InputId="deOverview" />
+    <p class="demo-text cw-320 mt-3">
+        Selected Date Range: 
+        <b>@DateTimeStart.ToString("dddd, dd MMMM yyyy")</b> - <b>@DateTimeEnd.ToString("dddd, dd MMMM yyyy")</b>
+    </p>
+</div>
+
+<button class="btn btn-primary mt-2" @onclick="FilterTicketsByDate">Filter Tickets</button>
+
+@if (Tickets == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <DxGrid Data="@Tickets" CssClass="mw-1100">
+        <Columns>
+            <DxGridDataColumn Caption="Date" FieldName="Date" />
+            <DxGridDataColumn Caption="Title" FieldName="Title" />
+            <DxGridDataColumn Caption="ClientContact" FieldName="ClientContact" />
+            <DxGridDataColumn Caption="State" FieldName="State" />
+        </Columns>
+    </DxGrid>
+}
+
+@code {
+    private Estagio.Services.Ticket[]? Tickets;
+    private Estagio.Services.Ticket[]? allTickets;
+    
+ 
+    DateTime DateTimeStart { get; set; } = DateTime.Today;
+    DateTime DateTimeEnd { get; set; } = DateTime.Today.AddDays(7);
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch the initial list of tickets
+        var serviceTickets = await TicketService.GetTicketsAsync(DateOnly.FromDateTime(DateTime.Now));
+
+        allTickets = serviceTickets.Select(ticket => new Estagio.Services.Ticket
+        {
+            Date = ticket.Date,
+            Title = ticket.Title,
+            ClientContact = ticket.ClientContact,
+            State = ticket.State
+        }).ToArray();
+
+        // Initially show all tickets
+        Tickets = allTickets;
+    }
+
+    private void FilterTicketsByDate()
+    {
+        if (DateTimeStart != null && DateTimeEnd != null)
+        {
+            Tickets = allTickets.Where(ticket => ticket.Date >= DateOnly.FromDateTime(DateTimeStart) && ticket.Date <= DateOnly.FromDateTime(DateTimeEnd))
+                                .ToArray();
+        }
+        else
+        {
+
+            Tickets = allTickets;
+        }
+    }
+}

@@ -1,0 +1,570 @@
+/* _content/Estagio/Components/Layout/Drawer.razor.rz.scp.css */
+[b-bzx5km817a] .navigation-drawer {
+    --dxbl-drawer-panel-footer-justify-content: center;
+    height: 100vh;
+    max-height: 100%;
+}
+
+[b-bzx5km817a] .panel-open:not(.mobile) .menu-button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    [b-bzx5km817a] .panel-open:not(.mobile) .menu-button {
+        display: inline-flex;
+    }
+
+    .mobile-drawer-closed .shading-copy[b-bzx5km817a] {
+        display: none;
+        visibility: hidden;
+    }
+
+    [b-bzx5km817a] .shading-copy {
+        background-color: var(--dxbl-drawer-content-shading-bg);
+        height: 100%;
+        position: absolute;
+        transition: opacity ease var(--dxbl-drawer-animation-duration);
+        visibility: visible;
+        width: 100%;
+        z-index: 99;
+        opacity: var(--dxbl-drawer-content-shading-opacity);
+    }
+
+    [b-bzx5km817a] .panel-open .shading-copy {
+        opacity: 0;
+        visibility: unset;
+        height: unset;
+    }
+}
+/* _content/Estagio/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-fueixn6dy9] {
+    height: 100%;
+    font-family: var(--bs-font-sans-serif);
+}
+
+[b-fueixn6dy9] .navigation-drawer > .dxbl-drawer-panel {
+    background-image: linear-gradient(180deg, var(--bs-primary) 0%, var(--bs-black) 150%);
+}
+
+[b-fueixn6dy9] .dxbl-drawer .dxbl-drawer-content {
+    height: 100vh;
+    overflow: auto;
+}
+
+[b-fueixn6dy9] .dxbl-drawer > .dxbl-drawer-panel .dxbl-drawer-header {
+    border-bottom: none;
+    padding: 2rem 1rem;
+}
+
+[b-fueixn6dy9] .dxbl-drawer-panel .dxbl-drawer-header .navigation-drawer-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+[b-fueixn6dy9] .dxbl-drawer > .dxbl-drawer-panel > .dxbl-drawer-body {
+    --dxbl-drawer-panel-body-padding-x: 0;
+    --dxbl-drawer-panel-body-padding-y: 1rem;
+}
+
+[b-fueixn6dy9] .dxbl-drawer > .dxbl-drawer-panel .dxbl-drawer-footer {
+    --dxbl-drawer-panel-footer-justify-content: center;
+    border-top: none;
+    padding-bottom: 1.5rem;
+}
+
+[b-fueixn6dy9] .content {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+[b-fueixn6dy9] .icon {
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-position: center center;
+    -webkit-mask-mask-position: center center;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-color: var(--dxbl-btn-color);
+}
+
+[b-fueixn6dy9] .icon-back {
+    -webkit-mask-image: url("images/back.svg");
+    mask-image: url("images/back.svg");
+}
+
+[b-fueixn6dy9] .icon-close {
+    -webkit-mask-image: url("images/close.svg");
+    mask-image: url("images/close.svg");
+}
+
+[b-fueixn6dy9] .icon-menu {
+    -webkit-mask-image: url("images/menu.svg");
+    mask-image: url("images/menu.svg");
+}
+
+[b-fueixn6dy9] .icon-log-in {
+    -webkit-mask-image: url("images/account/log-in.svg");
+    mask-image: url("images/account/log-in.svg");
+}
+
+[b-fueixn6dy9] .icon-log-out {
+    -webkit-mask-image: url("images/account/log-out.svg");
+    mask-image: url("images/account/log-out.svg");
+}
+
+[b-fueixn6dy9] .icon-user {
+    -webkit-mask-image: url("images/account/user.svg");
+    mask-image: url("images/account/user.svg");
+}
+
+[b-fueixn6dy9] .docs-icon {
+    mask-image: url("images/doc.svg");
+    -webkit-mask-image: url("images/doc.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: var(--dxbl-btn-color);
+}
+
+[b-fueixn6dy9] .demos-icon {
+    mask-image: url("images/demos.svg");
+    -webkit-mask-image: url("images/demos.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: var(--dxbl-btn-color);
+}
+
+[b-fueixn6dy9] .footer-button:hover .demos-icon {
+    background-color: var(--dxbl-btn-hover-color);
+}
+
+[b-fueixn6dy9] .footer-button:hover .docs-icon {
+    background-color: var(--dxbl-btn-hover-color);
+}
+
+[b-fueixn6dy9] .menu-button:hover .icon {
+    background-color: var(--dxbl-btn-hover-color);
+}
+
+[b-fueixn6dy9] .menu-button-nav:hover .icon {
+    background-color: var(--dxbl-btn-hover-color);
+}
+
+.panel-open .menu-button[b-fueixn6dy9] {
+    display: inline-flex;
+}
+
+.menu-button-nav[b-fueixn6dy9] {
+    background-image: url("images/close.svg");
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.nav-buttons-container[b-fueixn6dy9] {
+    display: flex;
+    gap: 10px;
+    padding: 2rem 1rem;
+}
+
+    .nav-buttons-container[b-fueixn6dy9]  .menubutton-float-end {
+        margin-left: auto;
+    }
+
+    .nav-buttons-container[b-fueixn6dy9]  .dxbl-btn-icon-only {
+        --dxbl-btn-padding-x: 0.75rem;
+        --dxbl-btn-padding-y: 0.25rem;
+    }
+
+[b-fueixn6dy9] .navigation-drawer > .dxbl-drawer-panel {
+    display: flex;
+}
+
+[b-fueixn6dy9] .navigation-drawer.mobile > .dxbl-drawer-panel {
+    display: none;
+}
+
+[b-fueixn6dy9] .navigation-drawer.mobile > .dxbl-drawer-shading {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    [b-fueixn6dy9] .navigation-drawer > .dxbl-drawer-panel {
+        display: none;
+    }
+
+    [b-fueixn6dy9] .navigation-drawer.mobile > .dxbl-drawer-panel {
+        display: flex;
+    }
+
+    [b-fueixn6dy9] .navigation-drawer.mobile > .dxbl-drawer-shading {
+        display: block;
+    }
+}
+/* _content/Estagio/Components/Layout/NavMenu.razor.rz.scp.css */
+#sidebar[b-wi8a24plzx] {
+    min-width: 15rem;
+    max-width: 15rem;
+    transition: transform 0.1s ease-out;
+    height: 100%;
+    max-height: 100%;
+    display: block;
+    background: inherit;
+}
+
+.logo[b-wi8a24plzx] {
+    text-align: center;
+}
+
+[b-wi8a24plzx] .menu.display-mobile {
+    margin-bottom: 2rem;
+}
+
+[b-wi8a24plzx] .menu.display-iam {
+    margin-bottom: 2rem;
+}
+
+[b-wi8a24plzx] .menu {
+    background-color: inherit;
+}
+
+    [b-wi8a24plzx] .menu .dxbl-menu-item-list {
+        gap: 0.5rem;
+    }
+
+[b-wi8a24plzx] .menu-item {
+    color: var(--bs-white);
+}
+
+[b-wi8a24plzx] .icon {
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0.5rem;
+}
+
+[b-wi8a24plzx] .home-icon {
+    background-image: url("images/home.svg");
+}
+
+[b-wi8a24plzx] .weather-icon {
+    background-image: url("images/weather.svg");
+}
+
+[b-wi8a24plzx] .counter-icon {
+    background-image: url("images/counter.svg");
+}
+
+[b-wi8a24plzx] .settings-icon {
+    background-image: url("images/account/settings.svg");
+}
+
+[b-wi8a24plzx] .log-in-icon {
+    background-image: url("images/account/log-in.svg");
+}
+
+[b-wi8a24plzx] .log-out-icon {
+    background-image: url("images/account/log-out.svg");
+}
+
+[b-wi8a24plzx] .user-icon {
+    background-image: url("images/account/user.svg");
+}
+
+@media (max-width: 768px) {
+    #sidebar[b-wi8a24plzx] {
+        min-width: inherit;
+        max-width: inherit;
+        display: block;
+    }
+
+    .logo[b-wi8a24plzx] {
+        text-align: inherit;
+    }
+}
+/* _content/Estagio/Components/Pages/Apoio.razor.rz.scp.css */
+[b-1ep60l63it] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+    [b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
+        align-content: center;
+        justify-content: center;
+    }
+
+[b-1ep60l63it] .title {
+    text-align: center;
+}
+
+[b-1ep60l63it] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+[b-1ep60l63it] .welcome-card {
+    width: 26.25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    border-radius: 1rem;
+    color: var(--bs-link-color-rgb);
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-1ep60l63it] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    [b-1ep60l63it] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-1ep60l63it] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: unset;
+    }
+
+[b-1ep60l63it] .icon-fill {
+    fill: var(--bs-primary);
+}
+
+[b-1ep60l63it] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bs-body-color);
+    opacity: 0.05;
+    border-radius: 1rem;
+    z-index: -2;
+}
+/* _content/Estagio/Components/Pages/Comercial.razor.rz.scp.css */
+[b-fzb1f755a6] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+    [b-fzb1f755a6] .welcome-gridlayout .dxbl-gridlayout-root {
+        align-content: center;
+        justify-content: center;
+    }
+
+[b-fzb1f755a6] .title {
+    text-align: center;
+}
+
+[b-fzb1f755a6] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+[b-fzb1f755a6] .welcome-card {
+    width: 26.25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    border-radius: 1rem;
+    color: var(--bs-link-color-rgb);
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-fzb1f755a6] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    [b-fzb1f755a6] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-fzb1f755a6] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: unset;
+    }
+
+[b-fzb1f755a6] .icon-fill {
+    fill: var(--bs-primary);
+}
+
+[b-fzb1f755a6] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bs-body-color);
+    opacity: 0.05;
+    border-radius: 1rem;
+    z-index: -2;
+}
+/* _content/Estagio/Components/Pages/Index.razor.rz.scp.css */
+[b-inuu4pyxf3] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+[b-inuu4pyxf3] .welcome-gridlayout .dxbl-gridlayout-root {
+    align-content: center;
+    justify-content: center;
+}
+
+[b-inuu4pyxf3] .title {
+    text-align: center;
+}
+
+[b-inuu4pyxf3] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+[b-inuu4pyxf3] .welcome-card {
+    width: 26.25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    border-radius: 1rem;
+    color: var(--bs-link-color-rgb);
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-inuu4pyxf3] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    [b-inuu4pyxf3] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-inuu4pyxf3] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: unset;
+    }
+
+    [b-inuu4pyxf3] .icon-fill {
+        fill: var(--bs-primary);
+    }
+
+    [b-inuu4pyxf3] .welcome-card .welcome-card-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--bs-body-color);
+        opacity: 0.05;
+        border-radius: 1rem;
+        z-index: -2;
+    }
+/* _content/Estagio/Components/Pages/NewTicket.razor.rz.scp.css */
+[b-ne8ynqayq8] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+    [b-ne8ynqayq8] .welcome-gridlayout .dxbl-gridlayout-root {
+        align-content: center;
+        justify-content: center;
+    }
+
+[b-ne8ynqayq8] .title {
+    text-align: center;
+}
+
+[b-ne8ynqayq8] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+[b-ne8ynqayq8] .welcome-card {
+    width: 26.25rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    border-radius: 1rem;
+    color: var(--bs-link-color-rgb);
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-ne8ynqayq8] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    [b-ne8ynqayq8] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-ne8ynqayq8] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: unset;
+    }
+
+[b-ne8ynqayq8] .icon-fill {
+    fill: var(--bs-primary);
+}
+
+[b-ne8ynqayq8] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bs-body-color);
+    opacity: 0.05;
+    border-radius: 1rem;
+    z-index: -2;
+}

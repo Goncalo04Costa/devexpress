@@ -1,0 +1,69 @@
+﻿@using Estagio.Services
+@inject TicketService TicketService
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
+@page "/Comercial"
+<PageTitle>Comercial</PageTitle>
+
+<MudBreadcrumbs Items="_items"></MudBreadcrumbs>
+
+<div class="main-content">
+    <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
+        <Rows>
+            <DxGridLayoutRow Height="auto" Areas="header"></DxGridLayoutRow>
+            <DxGridLayoutRow Height="auto" Areas="cards"></DxGridLayoutRow>
+        </Rows>
+        <Items>
+            <DxGridLayoutItem Area="header" CssClass="title">
+                <Template>
+                    <div class="title-header-text">Comercial!</div>
+                </Template>
+            </DxGridLayoutItem>
+            <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
+                <Template>
+                    <NavLink class="welcome-card" href="/novoticket">
+                        <svg class="welcome-card-img" aria-label="View Tickets">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">PROtextil</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                    <NavLink class="welcome-card" href="/novoticket">
+                        <svg class="welcome-card-img" aria-label="View Tickets">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">ATOMgest</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                    <NavLink class="welcome-card" href="/novoticket">
+                        <svg class="welcome-card-img" aria-label="View Tickets">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">IT</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                    <NavLink class="welcome-card" href="/novoticket">
+                        <svg class="welcome-card-img" aria-label="View Tickets">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">Financeiro</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                </Template>
+            </DxGridLayoutItem>
+        </Items>
+    </DxGridLayout>
+</div>
+
+@code {
+    [SupplyParameterFromQuery(Name = "toggleSidebar")]
+    public bool ToggledSidebar { get; set; }
+
+    // private List<BreadcrumbItem> _items = new()
+    // {
+    //     new("Início", href: "/"),
+    //     new("Apoio ao Cliente", href: "/apoio"),
+    //     new("Comercial", href: null, disabled: true)
+    // };
+}
