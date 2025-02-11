@@ -4,13 +4,19 @@
     height: auto;
 }
 
-    [b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
-        align-content: center;
-        justify-content: center;
-    }
+body[b-1ep60l63it] {
+    background: #F3F4F6; /* Cinza claro */
+}
+
+
+[b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
+    align-content: center;
+    justify-content: center;
+}
 
 [b-1ep60l63it] .title {
     text-align: center;
+    color: #1E3A8A; /* Azul escuro */
 }
 
 [b-1ep60l63it] .welcome-cards {
@@ -18,26 +24,29 @@
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
+    position: relative;
 }
 
 [b-1ep60l63it] .welcome-card {
-    width: 26.25rem;
-    height: 15rem;
+    width: 320px;
+    height: 114px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.2s;
+    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: var(--bs-link-color-rgb);
+    color: #FFFFFF; /* Branco */
     gap: 1.5rem;
     text-decoration: none;
     position: relative;
 }
 
     [b-1ep60l63it] .welcome-card:hover {
-        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
     }
 
     [b-1ep60l63it] .welcome-card .welcome-card-img {
@@ -48,13 +57,12 @@
     [b-1ep60l63it] .welcome-card .welcome-card-text {
         font-size: 1.75rem;
         font-weight: 600;
-        letter-spacing: 0em;
         text-align: center;
         text-decoration: unset;
     }
 
 [b-1ep60l63it] .icon-fill {
-    fill: var(--bs-primary);
+    fill: #FACC15; /* Amarelo vibrante */
 }
 
 [b-1ep60l63it] .welcome-card .welcome-card-back {
@@ -63,8 +71,44 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--bs-body-color);
-    opacity: 0.05;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
     z-index: -2;
 }
+
+/* Estilo específico para o cartão "Ver o seu ticket" */
+[b-1ep60l63it] .welcome-card-ver-ticket {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 10rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s, transform 0.2s;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 10;
+}
+
+    [b-1ep60l63it] .welcome-card-ver-ticket:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+
+    [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-text {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: unset;
+    }

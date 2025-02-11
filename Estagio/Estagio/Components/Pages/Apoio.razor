@@ -1,10 +1,4 @@
-﻿@using Estagio.Services
-@inject TicketService TicketService
-@attribute [StreamRendering(true)]
-@rendermode InteractiveServer
-
-
-@page "/Apoio"
+﻿@page "/Apoio"
 <PageTitle>Apoio</PageTitle>
 
 <div class="main-content">
@@ -16,39 +10,45 @@
         <Items>
             <DxGridLayoutItem Area="header" CssClass="title">
                 <Template>
-                    <div class="title-header-text">Apoio ao Cliente!</div>
+                    <div class="title-header-text">Apoio ao cliente!</div>
                 </Template>
             </DxGridLayoutItem>
             <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
                 <Template>
-                    <NavLink class="welcome-card" href="/novoticket">
-                        <svg class="welcome-card-img" aria-label="View Tickets">
+                    <NavLink class="welcome-card" href="/Apoio">
+                        <svg class="welcome-card-img" aria-label="Apoio">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">PROtextil</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-                    <NavLink class="welcome-card" href="/novoticket">
+
+                    <NavLink class="welcome-card" href="/Comercial">
                         <svg class="welcome-card-img" aria-label="View Tickets">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">ATOMgest</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-                    <NavLink class="welcome-card" href="/novoticket">
-                        <svg class="welcome-card-img" aria-label="View Tickets">
+
+                    <NavLink class="welcome-card" href="/Apoio">
+                        <svg class="welcome-card-img" aria-label="ATOM">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
-                        <div class="welcome-card-text">IT</div>
+                        <div class="welcome-card-text">ATOMgest</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-                    <NavLink class="welcome-card" href="/novoticket">
+
+
+                    <NavLink class="welcome-card" href="/Comercial">
                         <svg class="welcome-card-img" aria-label="View Tickets">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">Financeiro</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
+
+
                 </Template>
             </DxGridLayoutItem>
         </Items>
@@ -58,4 +58,4 @@
 @code {
     [SupplyParameterFromQuery(Name = "toggleSidebar")]
     public bool ToggledSidebar { get; set; }
-}
+} 

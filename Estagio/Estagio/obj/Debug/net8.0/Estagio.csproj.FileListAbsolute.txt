@@ -75,9 +75,6 @@ C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\D
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\Estagio.pdb
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\Estagio.genruntimeconfig.cache
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\ref\Estagio.dll
-C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Apoio.razor.rz.scp.css
-C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Comercial.razor.rz.scp.css
-C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NewTicket.razor.rz.scp.css
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\DurableTask.Core.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -86,3 +83,5 @@ C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\D
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\System.Reactive.Linq.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\System.Reactive.PlatformServices.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\System.Reactive.Providers.dll
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\apoio.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Comercial.razor.rz.scp.css

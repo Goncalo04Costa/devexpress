@@ -24,12 +24,23 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
                     <NavLink class="welcome-card" href="/Comercial">
-                            <svg class="welcome-card-img" aria-label="View Tickets">
-                                <use href="images/cards.svg#tickets"></use>
-                            </svg>
-                            <div class="welcome-card-text">Comercial</div>
-                            <div class="welcome-card-back"></div>
-                        </NavLink>
+                        <svg class="welcome-card-img" aria-label="View Tickets">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">Comercial</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+           
+
+
+                    <NavLink class="welcome-card welcome-card-ver-ticket" href="/procura">
+                        <svg class="welcome-card-img" aria-label="Ver o seu ticket">
+                            <use href="images/cards.svg#tickets"></use>
+                        </svg>
+                        <div class="welcome-card-text">Ver o seu ticket</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+
                 </Template>
             </DxGridLayoutItem>
         </Items>
@@ -39,4 +50,4 @@
 @code {
     [SupplyParameterFromQuery(Name = "toggleSidebar")]
     public bool ToggledSidebar { get; set; }
-}
+} 

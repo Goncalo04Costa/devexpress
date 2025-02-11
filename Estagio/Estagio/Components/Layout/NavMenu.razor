@@ -2,7 +2,7 @@
 
 <DxTreeView>
     <Nodes>
-        <DxTreeViewNode Text="Home" />
+        <DxTreeViewNode Text="Home" Clicked="OnHomeClick" />
         <DxTreeViewNode Text="Ticket" Expanded="true">
             <Nodes>
                 <DxTreeViewNode Text="New Ticket" />
@@ -23,10 +23,15 @@
 </DxTreeView>
 
 @code {
+    private void OnHomeClick()
+    {
+        // Navigate to the home page (root)
+        NavigationManager.NavigateTo("/");
+    }
+
     private void OnViewTicketsClick()
     {
-        NavigationManager.NavigateTo("/ticket");
-        NavigationManager.NavigateTo("/Comercial");
+        // Navigate to the ticket page
         NavigationManager.NavigateTo("/Apoio");
     }
 }
