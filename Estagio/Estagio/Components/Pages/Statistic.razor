@@ -8,7 +8,6 @@
 <h1>Tickets</h1>
 
 
-    <!-- Gráfico de Tickets por Estado -->
     <h3 class="mt-4">Tickets by State</h3>
     <DxPieChart Data="Tickets
         .GroupBy(t => t.Estado)
@@ -36,20 +35,20 @@
             </div>
         </DxChartTooltip>
     </DxPieChart>
-}
+
 
 @code {
-    // Utiliza o tipo totalmente qualificado para garantir que a classe correta seja utilizada
+    
     private Estagio.Services.Ticket[]? Tickets;
     private Estagio.Services.Ticket[]? allTickets;
     private string SearchTitle { get; set; } = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
-        // Obtém os tickets a partir do serviço
+        
         var serviceTickets = await TicketService.GetTicketsAsync(DateOnly.FromDateTime(DateTime.Now));
 
-        // Mapeia os dados para o modelo Ticket
+      
         allTickets = serviceTickets.Select(ticket => new Estagio.Services.Ticket
             {
                 Id = ticket.Id,
@@ -62,7 +61,6 @@
                 Estado = ticket.Estado
             }).ToArray();
 
-        // Exibe todos os tickets inicialmente
         Tickets = allTickets;
     }
 
@@ -73,7 +71,7 @@
             : allTickets.Where(ticket => ticket.Id.Equals(SearchTitle, StringComparison.OrdinalIgnoreCase)).ToArray();
     }
 
-    // Classe para os dados dos gráficos (para Tickets por Estado)
+   
     class DonutDataItem
     {
         public string State { get; }
