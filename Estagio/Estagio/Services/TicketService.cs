@@ -158,6 +158,23 @@ namespace Estagio.Services
             return Task.CompletedTask;
         }
 
+
+        public Task UpdateTicketStateAsync(string ticketId, EstadoTarefa newState)
+        {
+            var ticket = tickets.FirstOrDefault(t => t.Id.Equals(ticketId, StringComparison.OrdinalIgnoreCase));
+
+            if (ticket == null)
+            {
+                throw new InvalidOperationException($"Ticket com ID {ticketId} não encontrado.");
+            }
+
+            ticket.Estado = newState;
+
+           
+            return Task.CompletedTask;
+        }
+
+
         public Task<Ticket[]> SearchTicketsByClientContactAsync(string telefone)
         {
             var result = string.IsNullOrWhiteSpace(telefone)

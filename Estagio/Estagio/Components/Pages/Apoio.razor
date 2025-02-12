@@ -2,6 +2,8 @@
 
 <PageTitle>Apoio</PageTitle>
 
+<p>Inicio > <bold>Apoio ao Cliente</bold></p>
+
 <div class="main-content">
     <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
         <Rows>
@@ -16,7 +18,7 @@
             </DxGridLayoutItem>
             <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
                 <Template>
-                    <NavLink class="welcome-card" href="/novoticket">
+                    <NavLink class="welcome-card" href="/novoticketapoioPROtextil">
                         <svg class="welcome-card-img" aria-label="Apoio">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
@@ -24,7 +26,7 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-                    <NavLink class="welcome-card" href="/novoticket">
+                    <NavLink class="welcome-card" href="/novoticketapoioATOMGest">
                         <svg class="welcome-card-img" aria-label="View Tickets">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
@@ -32,24 +34,21 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-                    <NavLink class="welcome-card" href="/novoticket">
+                    <NavLink class="welcome-card" href="/novoticketapoioIT">
                         <svg class="welcome-card-img" aria-label="ATOM">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
-                        <div class="welcome-card-text">ATOMgest</div>
+                        <div class="welcome-card-text">IT</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-
-                    <NavLink class="welcome-card" href="/novoticket">
+                    <NavLink class="welcome-card" href="/novoticketapoioFinanceiro">
                         <svg class="welcome-card-img" aria-label="View Tickets">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">Financeiro</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-
-
                 </Template>
             </DxGridLayoutItem>
         </Items>
@@ -59,4 +58,4 @@
 @code {
     [SupplyParameterFromQuery(Name = "toggleSidebar")]
     public bool ToggledSidebar { get; set; }
-} 
+}

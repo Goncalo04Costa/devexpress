@@ -22,12 +22,44 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Alltickets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBbGx0aWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicket.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0LnJhem9y
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketApoioATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0QXBvaW9BVE9NZ2VzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketApoioFinanceiro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0QXBvaW9GaW5hbmNlaXJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketApoioIT.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0QXBvaW9JVC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketApoioPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0QXBvaW9QUk90ZXh0aWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketComercialATOMgest.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0Q29tZXJjaWFsQVRPTWdlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketComercialFinanceiro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0Q29tZXJjaWFsRmluYW5jZWlyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketComercialIT.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0Q29tZXJjaWFsSVQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/NovoTicketComercialPROtextil.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3ZvVGlja2V0Q29tZXJjaWFsUFJPdGV4dGlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Statistic.razor]

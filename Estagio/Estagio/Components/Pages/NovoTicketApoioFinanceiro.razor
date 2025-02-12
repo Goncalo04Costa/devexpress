@@ -1,0 +1,102 @@
+﻿@page "/novoticketapoioFinanceiro"
+@using Estagio.Services
+@inject TicketService TicketService
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+<PageTitle>Novo Ticket</PageTitle>
+
+
+<p>Inicio > Apoio ao Cliente > <bold>Financeiro</bold></p>
+<h1 class="text-center">Criar Ticket</h1>
+
+<EditForm Model="newTicket" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <!-- Nome -->
+    <div class="form-group ">
+        <label for="Nome">Nome *</label>
+        <InputText id="Nome" class="form-control" @bind-Value="newTicket.Nome" />
+        <ValidationMessage For="@(() => newTicket.Nome)" />
+    </div>
+
+    <!-- Empresa -->
+    <div class="form-group ">
+        <label for="Empresa">Empresa *</label>
+        <InputText id="Empresa" class="form-control" @bind-Value="newTicket.Empresa" />
+        <ValidationMessage For="@(() => newTicket.Empresa)" />
+    </div>
+
+    <!-- E-mail -->
+    <div class="form-group ">
+        <label for="Email">Email *</label>
+        <InputText id="Email" class="form-control" @bind-Value="newTicket.Email" />
+        <ValidationMessage For="@(() => newTicket.Email)" />
+    </div>
+
+    <!-- Telefone -->
+    <div class="form-group">
+        <label for="Phone">Telefone</label>
+        <InputText id="Phone" class="form-control" @bind-Value="newTicket.Telefone" />
+        <ValidationMessage For="@(() => newTicket.Telefone)" />
+    </div>
+
+    <!-- Assunto -->
+    <div class="form-group ">
+        <label for="Assunto">Assunto *</label>
+        <InputText id="Assunto" class="form-control" @bind-Value="newTicket.Assunto" />
+        <ValidationMessage For="@(() => newTicket.Assunto)" />
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center mt-4">
+
+        <button type="submit" class="btn btn-primary" disabled="@isSubmitting">Criar Ticket</button>
+    </div>
+</EditForm>
+
+@if (isTicketCreated)
+{
+    <p class="text-success text-center">Ticket criado com sucesso!</p>
+}
+@if (isError)
+{
+    <p class="text-danger text-center">Erro ao criar ticket. Tente novamente.</p>
+}
+@if (isSubmitting)
+{
+    <p class="text-center"><em>Criando ticket...</em></p>
+}
+
+@code {
+    private Estagio.Services.Ticket newTicket = new Estagio.Services.Ticket
+        {
+            Date = DateTime.Now,
+            Estado = EstadoTarefa.PorIniciar
+        };
+
+    private bool isTicketCreated = false;
+    private bool isSubmitting = false;
+    private bool isError = false;
+
+    private async Task HandleSubmit()
+    {
+        isSubmitting = true;
+        isError = false;
+        try
+        {
+            await TicketService.AddNewTicketAsync(newTicket);
+            isTicketCreated = true;
+            newTicket = new Estagio.Services.Ticket();
+        }
+        catch (Exception ex)
+        {
+            isError = true;
+            Console.WriteLine($"Erro ao criar ticket: {ex.Message}");
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+}

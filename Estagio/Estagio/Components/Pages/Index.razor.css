@@ -15,7 +15,7 @@ body {
 
 ::deep .title {
     text-align: center;
-    color: #1E3A8A; /* Azul escuro */
+    color: #FFFFFF; /* Azul escuro */
 }
 
 ::deep .welcome-cards {

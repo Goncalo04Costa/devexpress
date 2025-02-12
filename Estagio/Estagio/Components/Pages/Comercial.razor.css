@@ -15,8 +15,8 @@ body {
 }
 
 ::deep .title {
-    text-align: center;
-    color: #1E3A8A; 
+    text-align: left;
+    color: #FFFFFF;
 }
 
 ::deep .welcome-cards {

@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\apoio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\apoio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketapoioit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketapoioit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketapoioprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketapoioprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketapoioatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketapoioatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\comercial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\comercial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketcomercialfinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketcomercialfinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\statistic.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\statistic.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +59,20 @@
       "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\ticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\novoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\novoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\services\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\services\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\apoio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\apoio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\comercial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\comercial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\wwwroot\\images\\back.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\wwwroot\\images\\back.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\testesestagio\\estagio\\estagio\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C79CFA8-1CDD-4530-ADE6-6A3766159854}|Estagio\\Estagio.csproj|solutionrelative:estagio\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,72 +105,168 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NovoTicketComercialFinanceiro.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialFinanceiro.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketComercialFinanceiro.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialFinanceiro.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketComercialFinanceiro.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:11:35.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NovoTicketComercialIT.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialIT.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketComercialIT.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialIT.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketComercialIT.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:10:57.629Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NovoTicketApoioFinanceiro.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioFinanceiro.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketApoioFinanceiro.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioFinanceiro.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketApoioFinanceiro.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:05:09.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NovoTicketApoioIT.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioIT.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketApoioIT.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioIT.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketApoioIT.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:04:40.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor.css",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Index.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor.css",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\Index.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-12T10:22:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NovoTicketComercialPROtextil.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialPROtextil.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketComercialPROtextil.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialPROtextil.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketComercialPROtextil.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:13:57.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NovoTicketApoioATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioATOMgest.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketApoioATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioATOMgest.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketApoioATOMgest.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:04:06.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NovoTicketApoioPROtextil.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioPROtextil.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketApoioPROtextil.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketApoioPROtextil.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketApoioPROtextil.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T12:01:19.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Apoio.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Apoio.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Apoio.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Apoio.razor",
               "RelativeToolTip": "Estagio\\Components\\Pages\\Apoio.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADEAAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T10:49:04.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Comercial.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Comercial.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Comercial.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Comercial.razor",
               "RelativeToolTip": "Estagio\\Components\\Pages\\Comercial.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAABDAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC8AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T10:48:25.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NovoTicket.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicket.razor",
-              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicket.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicket.razor",
-              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicket.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "DocumentIndex": 10,
+              "Title": "NovoTicketComercialATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialATOMgest.razor",
+              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\NovoTicketComercialATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\NovoTicketComercialATOMgest.razor",
+              "RelativeToolTip": "Estagio\\Components\\Pages\\NovoTicketComercialATOMgest.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T10:35:36.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor.css",
-              "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Index.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor.css",
-              "RelativeToolTip": "Estagio\\Components\\Pages\\Index.razor.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-12T10:22:09.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Statistic.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Statistic.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Statistic.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Statistic.razor",
               "RelativeToolTip": "Estagio\\Components\\Pages\\Statistic.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T10:11:56.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "close.svg",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\close.svg",
               "RelativeDocumentMoniker": "Estagio\\wwwroot\\images\\close.svg",
@@ -154,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "back.svg",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\back.svg",
               "RelativeDocumentMoniker": "Estagio\\wwwroot\\images\\back.svg",
@@ -166,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\_Imports.razor",
@@ -174,36 +298,38 @@
               "RelativeToolTip": "Estagio\\Components\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T09:59:42.063Z"
+              "WhenOpened": "2025-02-12T09:59:42.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "Estagio\\Services\\TicketService.cs",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Services\\TicketService.cs",
               "RelativeToolTip": "Estagio\\Services\\TicketService.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAwFMAAAA3AAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAAA3wKwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T09:28:28.122Z"
+              "WhenOpened": "2025-02-12T09:28:28.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Index.razor",
               "RelativeToolTip": "Estagio\\Components\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T09:26:35.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\App.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\App.razor",
@@ -211,11 +337,12 @@
               "RelativeToolTip": "Estagio\\Components\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T09:26:32.197Z"
+              "WhenOpened": "2025-02-12T09:26:32.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Routes.razor",
@@ -223,30 +350,31 @@
               "RelativeToolTip": "Estagio\\Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T09:26:29.085Z"
+              "WhenOpened": "2025-02-12T09:26:29.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Services\\Ticket.cs",
               "RelativeDocumentMoniker": "Estagio\\Services\\Ticket.cs",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Services\\Ticket.cs",
               "RelativeToolTip": "Estagio\\Services\\Ticket.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwCgAAAArAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T09:25:46.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Ticket.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Ticket.razor",
               "RelativeDocumentMoniker": "Estagio\\Components\\Pages\\Ticket.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\Components\\Pages\\Ticket.razor",
               "RelativeToolTip": "Estagio\\Components\\Pages\\Ticket.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAABoAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T09:25:25.202Z",
               "EditorCaption": ""

@@ -1,0 +1,48 @@
+﻿@page "/alltickets"
+@using Estagio.Services
+@inject TicketService TicketService
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
+<PageTitle>Tickets</PageTitle>
+<h1>Tickets</h1>
+
+@if (Tickets == null)
+{
+    <p><em>Carregando os tickets...</em></p>
+}
+else
+{
+    <DxGrid Data="@Tickets" CssClass="mw-1100">
+        <Columns>
+            <DxGridDataColumn Caption="Id" FieldName="Id" />
+            <DxGridDataColumn Caption="Date" FieldName="Date" />
+            <DxGridDataColumn Caption="Name" FieldName="Nome" />
+            <DxGridDataColumn Caption="Company" FieldName="Empresa" />
+            <DxGridDataColumn Caption="Email" FieldName="Email" />
+            <DxGridDataColumn Caption="Phone" FieldName="Telefone" />
+            <DxGridDataColumn Caption="Subject" FieldName="Assunto" />
+            <DxGridDataColumn Caption="State" FieldName="Estado" />
+        </Columns>
+    </DxGrid>
+}
+
+@code {
+    private Estagio.Services.Ticket[]? Tickets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var serviceTickets = await TicketService.GetTicketsAsync(DateOnly.FromDateTime(DateTime.Now));
+        Tickets = serviceTickets.Select(ticket => new Estagio.Services.Ticket
+            {
+                Id = ticket.Id,
+                Date = ticket.Date,
+                Nome = ticket.Nome,
+                Empresa = ticket.Empresa,
+                Email = ticket.Email,
+                Telefone = ticket.Telefone,
+                Assunto = ticket.Assunto,
+                Estado = ticket.Estado
+            }).ToArray();
+    }
+}

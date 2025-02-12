@@ -220,8 +220,8 @@ body[b-1ep60l63it] {
 }
 
 [b-1ep60l63it] .title {
-    text-align: center;
-    color: #1E3A8A; /* Azul escuro */
+    text-align: left;
+    color: #FFFF; 
 }
 
 [b-1ep60l63it] .welcome-cards {
@@ -335,8 +335,8 @@ body[b-fzb1f755a6] {
 }
 
 [b-fzb1f755a6] .title {
-    text-align: center;
-    color: #1E3A8A; 
+    text-align: left;
+    color: #FFFFFF;
 }
 
 [b-fzb1f755a6] .welcome-cards {
@@ -450,7 +450,7 @@ body[b-inuu4pyxf3] {
 
 [b-inuu4pyxf3] .title {
     text-align: center;
-    color: #1E3A8A; /* Azul escuro */
+    color: #FFFFFF; /* Azul escuro */
 }
 
 [b-inuu4pyxf3] .welcome-cards {
