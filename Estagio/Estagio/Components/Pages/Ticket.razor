@@ -4,6 +4,9 @@
 @attribute [StreamRendering(true)]
 @rendermode InteractiveServer
 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
 <PageTitle>Tickets</PageTitle>
 <h1>Tickets</h1>
 
@@ -19,7 +22,7 @@
 }
 else
 {
-    <DxGrid Data="@Tickets" CssClass="mw-1100">
+    <DxGrid Data="@Tickets" CssClass="mw-1100 custom-grid">
         <Columns>
             <DxGridDataColumn Caption="Id" FieldName="Id" />
             <DxGridDataColumn Caption="Date" FieldName="Date" />

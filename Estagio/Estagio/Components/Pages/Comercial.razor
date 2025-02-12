@@ -1,4 +1,8 @@
 ﻿@page "/Comercial"
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
 <PageTitle>Comercial</PageTitle>
 
 
@@ -14,24 +18,25 @@
         <Items>
             <DxGridLayoutItem Area="header" CssClass="title">
                 <Template>
-                    <div class="title-header-text">Comercial!</div>
+                    <div class="title-header-text">
+                        <NavLink class="arrow-link" href="/">></NavLink>
+                        Comercial!
+                    </div>
                 </Template>
+
             </DxGridLayoutItem>
             <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
                 <Template>
                     <NavLink class="welcome-card" href="/novoticketcomercialPROtextil">
-                        <svg class="welcome-card-img" aria-label="Apoio">
-                            <use href="images/cards.svg#tickets"></use>
-                        </svg>
+                        <img class="welcome-card-img" src="images/protextil-removebg-preview.png" alt="Comercial" />
                         <div class="welcome-card-text">PROtextil</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
+
                     <NavLink class="welcome-card" href="/novoticketcomercialATOMGest">
-                        <svg class="welcome-card-img" aria-label="View Tickets">
-                            <use href="images/cards.svg#tickets"></use>
-                        </svg>
-                        <div class="welcome-card-text">ATOMgest</div>
+                        <img class="welcome-card-img" src="images/ATOMgest-removebg-preview.png" alt="Comercial" />
+                        <div class="welcome-card-text">ATOMGest</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 

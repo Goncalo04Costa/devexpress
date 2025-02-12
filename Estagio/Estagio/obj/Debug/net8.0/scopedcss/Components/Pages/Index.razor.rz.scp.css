@@ -14,8 +14,8 @@ body[b-inuu4pyxf3] {
 }
 
 [b-inuu4pyxf3] .title {
-    text-align: center;
-    color: #FFFFFF; /* Azul escuro */
+    text-align: left;
+    color: #12444A;
 }
 
 [b-inuu4pyxf3] .welcome-cards {
@@ -27,33 +27,21 @@ body[b-inuu4pyxf3] {
 }
 
 [b-inuu4pyxf3] .welcome-card {
-    width: 350px;
-    height: 144px;
+    width: 320px;
+    height: 114px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    background: #E8F2F3;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; /* Branco */
+    color: #272E2E;
+    gap: 1.5rem;
     text-decoration: none;
     position: relative;
-    padding: 1rem;
 }
-
-    [b-inuu4pyxf3] .welcome-card .welcome-card-text {
-        font-size: 1.75rem;
-        font-weight: 600;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
 
     [b-inuu4pyxf3] .welcome-card:hover {
         box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
@@ -70,6 +58,7 @@ body[b-inuu4pyxf3] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
+        color: #272E2E; /* Texto branco */
     }
 
 [b-inuu4pyxf3] .icon-fill {

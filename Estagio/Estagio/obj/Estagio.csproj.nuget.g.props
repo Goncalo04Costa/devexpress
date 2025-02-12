@@ -15,6 +15,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)mudblazor\8.2.0\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\8.2.0\buildTransitive\MudBlazor.props')" />
     <Import Project="C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor.themes\24.2.3\buildTransitive\DevExpress.Blazor.Themes.props" Condition="Exists('C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor.themes\24.2.3\buildTransitive\DevExpress.Blazor.Themes.props')" />
     <Import Project="C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor.resources\24.2.3\buildTransitive\DevExpress.Blazor.Resources.props" Condition="Exists('C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor.resources\24.2.3\buildTransitive\DevExpress.Blazor.Resources.props')" />
     <Import Project="C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor\24.2.3\buildTransitive\net5.0\DevExpress.Blazor.props" Condition="Exists('C:\Program Files\DevExpress 24.2\Components\Offline Packages\devexpress.blazor\24.2.3\buildTransitive\net5.0\DevExpress.Blazor.props')" />

@@ -1,4 +1,8 @@
 ﻿@page "/"
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
 <PageTitle>Welcome</PageTitle>
 
 <div class="main-content">
@@ -31,7 +35,7 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-                   @*  <NavLink class="welcome-card" href="/alltickets">
+                    <NavLink class="welcome-card" href="/alltickets">
                         <svg class="welcome-card-img" aria-label="Comercial">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
@@ -39,6 +43,7 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
+                    @*
                     <!-- Cartão de Dados Estatísticos no lugar correto -->
                     <NavLink class="welcome-card welcome-card-dados-estatisticos" href="/stats">
                         <svg class="welcome-card-img" aria-label="Dados Estatisticos">

@@ -1,6 +1,16 @@
 ﻿@inherits LayoutComponentBase
 @inject NavigationManager NavigationManager
 
+@* Required *@
+<MudThemeProvider />
+<MudPopoverProvider />
+
+@* Needed for dialogs *@
+<MudDialogProvider />
+
+@* Needed for snackbars *@
+<MudSnackbarProvider />
+
 <div class="page">
     <Drawer DrawerHeader="drawerHeader" DrawerFooter="drawerFooter">
         <DrawerBody>

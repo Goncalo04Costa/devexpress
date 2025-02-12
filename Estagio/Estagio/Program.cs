@@ -1,5 +1,6 @@
 using Estagio.Services;
 using Estagio.Components;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddDevExpressBlazor(options => {
 builder.Services.AddSingleton<TicketService>();
 
 builder.Services.AddMvc();
+builder.Services.AddMudServices();
 
 var app = builder.Build();
 

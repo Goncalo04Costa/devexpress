@@ -1,4 +1,7 @@
 is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -20,10 +23,6 @@ build_property._RazorSourceGeneratorDebug =
 
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Alltickets.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBbGx0aWNrZXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Error.razor]
@@ -66,10 +65,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdGF0aXN0aWMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Ticket.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaWNrZXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +81,10 @@ build_metadata.AdditionalFiles.CssScope = b-bzx5km817a
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-fueixn6dy9
 
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Alltickets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBbGx0aWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-18lcltpigi
+
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Apoio.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBcG9pby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1ep60l63it
@@ -97,3 +96,7 @@ build_metadata.AdditionalFiles.CssScope = b-fzb1f755a6
 [C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-inuu4pyxf3
+
+[C:/Users/gonca/OneDrive/Ambiente de Trabalho/testesEstagio/Estagio/Estagio/Components/Pages/Ticket.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaWNrZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-azc9c56nmi

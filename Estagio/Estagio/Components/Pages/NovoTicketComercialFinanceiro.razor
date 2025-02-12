@@ -3,13 +3,19 @@
 @inject TicketService TicketService
 @attribute [StreamRendering(true)]
 @rendermode InteractiveServer
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
 <PageTitle>Novo Ticket</PageTitle>
 
 
 
 <p>Inicio > Comercial > <bold>Financeiro</bold></p>
-
-<h1 class="text-center">Criar Ticket</h1>
+<div class="title-header-text">
+    <NavLink class="arrow-link" href="/Comercial">></NavLink>
+    Novo Ticket!
+</div>
 
 <EditForm Model="newTicket" OnValidSubmit="HandleSubmit">
     <DataAnnotationsValidator />

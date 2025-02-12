@@ -202,6 +202,10 @@
         display: block;
     }
 }
+/* _content/Estagio/Components/Pages/Alltickets.razor.rz.scp.css */
+.custom-grid[b-18lcltpigi] {
+    background-color: #E8F2F3;
+}
 /* _content/Estagio/Components/Pages/apoio.razor.rz.scp.css */
 [b-1ep60l63it] .welcome-gridlayout {
     margin: auto;
@@ -213,7 +217,6 @@ body[b-1ep60l63it] {
     background: #F3F4F6; /* Cinza claro */
 }
 
-
 [b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
     align-content: center;
     justify-content: center;
@@ -221,7 +224,7 @@ body[b-1ep60l63it] {
 
 [b-1ep60l63it] .title {
     text-align: left;
-    color: #FFFF; 
+    color: #12444A;
 }
 
 [b-1ep60l63it] .welcome-cards {
@@ -239,11 +242,11 @@ body[b-1ep60l63it] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    background: #E8F2F3;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; /* Branco */
+    color: #272E2E;
     gap: 1.5rem;
     text-decoration: none;
     position: relative;
@@ -264,6 +267,7 @@ body[b-1ep60l63it] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
+        color: #272E2E; /* Texto branco */
     }
 
 [b-1ep60l63it] .icon-fill {
@@ -325,9 +329,8 @@ body[b-1ep60l63it] {
 }
 
 body[b-fzb1f755a6] {
-    background: #F3F4F6;
+    background: #F3F4F6; /* Cinza claro */
 }
-
 
 [b-fzb1f755a6] .welcome-gridlayout .dxbl-gridlayout-root {
     align-content: center;
@@ -336,7 +339,7 @@ body[b-fzb1f755a6] {
 
 [b-fzb1f755a6] .title {
     text-align: left;
-    color: #FFFFFF;
+    color: #12444A;
 }
 
 [b-fzb1f755a6] .welcome-cards {
@@ -354,11 +357,11 @@ body[b-fzb1f755a6] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); 
+    background: #E8F2F3;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; 
+    color: #272E2E;
     gap: 1.5rem;
     text-decoration: none;
     position: relative;
@@ -379,6 +382,7 @@ body[b-fzb1f755a6] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
+        color: #272E2E; /* Texto branco */
     }
 
 [b-fzb1f755a6] .icon-fill {
@@ -449,8 +453,8 @@ body[b-inuu4pyxf3] {
 }
 
 [b-inuu4pyxf3] .title {
-    text-align: center;
-    color: #FFFFFF; /* Azul escuro */
+    text-align: left;
+    color: #12444A;
 }
 
 [b-inuu4pyxf3] .welcome-cards {
@@ -462,33 +466,21 @@ body[b-inuu4pyxf3] {
 }
 
 [b-inuu4pyxf3] .welcome-card {
-    width: 350px;
-    height: 144px;
+    width: 320px;
+    height: 114px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    background: #E8F2F3;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; /* Branco */
+    color: #272E2E;
+    gap: 1.5rem;
     text-decoration: none;
     position: relative;
-    padding: 1rem;
 }
-
-    [b-inuu4pyxf3] .welcome-card .welcome-card-text {
-        font-size: 1.75rem;
-        font-weight: 600;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
 
     [b-inuu4pyxf3] .welcome-card:hover {
         box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
@@ -505,6 +497,7 @@ body[b-inuu4pyxf3] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
+        color: #272E2E; /* Texto branco */
     }
 
 [b-inuu4pyxf3] .icon-fill {
@@ -558,3 +551,122 @@ body[b-inuu4pyxf3] {
         text-align: center;
         text-decoration: unset;
     }
+/* _content/Estagio/Components/Pages/NovoTicketApoioATOMgest.razor.rz.scp.css */
+[b-mr90aebrou] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+body[b-mr90aebrou] {
+    background: #F3F4F6; /* Cinza claro */
+}
+
+[b-mr90aebrou] .welcome-gridlayout .dxbl-gridlayout-root {
+    align-content: center;
+    justify-content: center;
+}
+
+[b-mr90aebrou] .title {
+    text-align: left;
+    color: #12444A;
+}
+
+[b-mr90aebrou] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    position: relative;
+}
+
+[b-mr90aebrou] .welcome-card {
+    width: 320px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E8F2F3;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s, transform 0.2s;
+    border-radius: 1rem;
+    color: #272E2E;
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-mr90aebrou] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    [b-mr90aebrou] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-mr90aebrou] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: unset;
+        color: #272E2E; /* Texto branco */
+    }
+
+[b-mr90aebrou] .icon-fill {
+    fill: #FACC15; /* Amarelo vibrante */
+}
+
+[b-mr90aebrou] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    z-index: -2;
+}
+
+/* Estilo específico para o cartão "Ver o seu ticket" */
+[b-mr90aebrou] .welcome-card-ver-ticket {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 10rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s, transform 0.2s;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 10;
+}
+
+    [b-mr90aebrou] .welcome-card-ver-ticket:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+
+    [b-mr90aebrou] .welcome-card-ver-ticket .welcome-card-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    [b-mr90aebrou] .welcome-card-ver-ticket .welcome-card-text {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: unset;
+    }
+/* _content/Estagio/Components/Pages/Ticket.razor.rz.scp.css */
+.custom-grid[b-azc9c56nmi] {
+    background-color: #E8F2F3;
+}

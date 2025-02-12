@@ -1,5 +1,6 @@
 ﻿@page "/Apoio"
-
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
 <PageTitle>Apoio</PageTitle>
 
 <p>Inicio > <bold>Apoio ao Cliente</bold></p>
@@ -13,24 +14,24 @@
         <Items>
             <DxGridLayoutItem Area="header" CssClass="title">
                 <Template>
-                    <div class="title-header-text">Apoio ao cliente!</div>
+                    <div class="title-header-text">
+                        <NavLink class="arrow-link" href="/">></NavLink>
+                        Apoio ao Cliente!
+                    </div>
                 </Template>
             </DxGridLayoutItem>
             <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
                 <Template>
                     <NavLink class="welcome-card" href="/novoticketapoioPROtextil">
-                        <svg class="welcome-card-img" aria-label="Apoio">
-                            <use href="images/cards.svg#tickets"></use>
-                        </svg>
+                        <img class="welcome-card-img" src="images/protextil-removebg-preview.png" alt="Apoio" />
                         <div class="welcome-card-text">PROtextil</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
+
                     <NavLink class="welcome-card" href="/novoticketapoioATOMGest">
-                        <svg class="welcome-card-img" aria-label="View Tickets">
-                            <use href="images/cards.svg#tickets"></use>
-                        </svg>
-                        <div class="welcome-card-text">ATOMgest</div>
+                        <img class="welcome-card-img" src="images/ATOMgest-removebg-preview.png" alt="Apoio" />
+                        <div class="welcome-card-text">ATOMGest</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
