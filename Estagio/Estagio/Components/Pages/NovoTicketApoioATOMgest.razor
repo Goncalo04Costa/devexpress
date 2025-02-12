@@ -53,6 +53,11 @@
         <ValidationMessage For="@(() => newTicket.Assunto)" />
     </div>
 
+
+
+    
+
+
     <!-- Submit Button -->
     <div class="text-center mt-4">
         <button type="submit" class="btn btn-primary" disabled="@isSubmitting">Criar Ticket</button>
@@ -73,6 +78,10 @@
 }
 
 @code {
+
+
+   
+
     private Estagio.Services.Ticket newTicket = new Estagio.Services.Ticket
         {
             Date = DateTime.Now,
@@ -113,3 +122,8 @@
         }
     }
 }
+
+
+
+
+

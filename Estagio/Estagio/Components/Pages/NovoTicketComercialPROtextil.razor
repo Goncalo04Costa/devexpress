@@ -1,7 +1,6 @@
 ﻿@page "/novoticketcomercialPROtextil"
 @using Estagio.Services
 @inject TicketService TicketService
-@attribute [StreamRendering(true)]
 @rendermode InteractiveServer
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
@@ -9,32 +8,33 @@
 
 <PageTitle>Novo Ticket</PageTitle>
 
-<p>Inicio > Comercial > <bold>PROtextil</bold></p>
+
+
+<p>Inicio > Comercial > <bold>Finaanceiro</bold></p>
 <div class="title-header-text">
     <NavLink class="arrow-link" href="/Comercial">></NavLink>
     Novo Ticket!
 </div>
-
-<EditForm Model="newTicket">
+<EditForm Model="newTicket" OnValidSubmit="HandleSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <!-- Nome -->
-    <div class="form-group">
+    <div class="form-group ">
         <label for="Nome">Nome *</label>
         <InputText id="Nome" class="form-control" @bind-Value="newTicket.Nome" />
         <ValidationMessage For="@(() => newTicket.Nome)" />
     </div>
 
     <!-- Empresa -->
-    <div class="form-group">
+    <div class="form-group ">
         <label for="Empresa">Empresa *</label>
         <InputText id="Empresa" class="form-control" @bind-Value="newTicket.Empresa" />
         <ValidationMessage For="@(() => newTicket.Empresa)" />
     </div>
 
     <!-- E-mail -->
-    <div class="form-group">
+    <div class="form-group ">
         <label for="Email">Email *</label>
         <InputText id="Email" class="form-control" @bind-Value="newTicket.Email" />
         <ValidationMessage For="@(() => newTicket.Email)" />
@@ -48,7 +48,7 @@
     </div>
 
     <!-- Assunto -->
-    <div class="form-group">
+    <div class="form-group ">
         <label for="Assunto">Assunto *</label>
         <InputText id="Assunto" class="form-control" @bind-Value="newTicket.Assunto" />
         <ValidationMessage For="@(() => newTicket.Assunto)" />
@@ -56,6 +56,7 @@
 
     <!-- Submit Button -->
     <div class="text-center mt-4">
+
         <button type="submit" class="btn btn-primary" disabled="@isSubmitting">Criar Ticket</button>
     </div>
 </EditForm>
@@ -66,7 +67,7 @@
 }
 @if (isError)
 {
-    <p class="text-danger text-center">Erro ao criar ticket ou enviar e-mail. Tente novamente.</p>
+    <p class="text-danger text-center">Erro ao criar ticket. Tente novamente.</p>
 }
 @if (isSubmitting)
 {
@@ -84,5 +85,24 @@
     private bool isSubmitting = false;
     private bool isError = false;
 
-   
+    private async Task HandleSubmit()
+    {
+        isSubmitting = true;
+        isError = false;
+        try
+        {
+            await TicketService.AddNewTicketAsync(newTicket);
+            isTicketCreated = true;
+            newTicket = new Estagio.Services.Ticket();
+        }
+        catch (Exception ex)
+        {
+            isError = true;
+            Console.WriteLine($"Erro ao criar ticket: {ex.Message}");
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
 }

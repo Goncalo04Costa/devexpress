@@ -10,10 +10,14 @@
   <ItemGroup>
     <Content Remove="Components\Pages\Forms.razor" />
     <Content Remove="Components\Pages\Procura.razor" />
+    <Content Remove="Components\Pages\upload.razor" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Blazor" Version="24.2.3" />
     <PackageReference Include="Microsoft.Azure.DurableTask.Core" Version="3.0.0" />
     <PackageReference Include="MudBlazor" Version="8.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Components\Pages\upload.razor" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b0KudhV7FXgng6B2Z47gzFvfM7RsIiJ3isVo5/hiD10=",
+  "Hash": "VTzFIw00ML1RFDAA2HvBjlzRQGaYP9VSmp7aJNLtxJc=",
   "Source": "Estagio",
   "BasePath": "_content/Estagio",
   "Mode": "Default",
@@ -4862,6 +4862,25 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
+      "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\logos.png",
+      "SourceId": "Estagio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\",
+      "BasePath": "_content/Estagio",
+      "RelativePath": "images/logos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logos.png"
+    },
+    {
       "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\menu.svg",
       "SourceId": "Estagio",
       "SourceType": "Discovered",
@@ -4898,6 +4917,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\protextil-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\rodape.png",
+      "SourceId": "Estagio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\",
+      "BasePath": "_content/Estagio",
+      "RelativePath": "images/rodape.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rodape.png"
     },
     {
       "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\weather.svg",

@@ -2,12 +2,12 @@
 @inject NavigationManager NavigationManager
 
 <div>
-    <DxDrawer PanelWidth="@Width" CssClass="@(CssClass + " mobile")" Mode="@DrawerMode.Overlap" IsOpen="@ToggledSidebar" HeaderTemplate="@DrawerHeader" FooterTemplate="@DrawerFooter" ApplyBackgroundShading="false" ClosedCssClass="panel-closed">
+    <DxDrawer  HeaderTemplate="@DrawerHeader" FooterTemplate="@DrawerFooter" ApplyBackgroundShading="false" ClosedCssClass="panel-closed">
         <BodyTemplate>
             @DrawerBody
         </BodyTemplate>
         <TargetContent>
-            <DxDrawer PanelWidth="@Width" CssClass="@CssClass" Mode="@DrawerMode.Shrink" IsOpen="@(!ToggledSidebar)" HeaderTemplate="@DrawerHeader" FooterTemplate="@DrawerFooter" OpenCssClass="panel-open" >
+            <DxDrawer   HeaderTemplate="@DrawerHeader" FooterTemplate="@DrawerFooter" OpenCssClass="panel-open" >
                 <BodyTemplate>
                     @DrawerBody
                 </BodyTemplate>
@@ -21,9 +21,7 @@
 </div>
 
 @code {
-    string Width => "240px";
-    string CssClass => "navigation-drawer";
-
+  
     [SupplyParameterFromQuery(Name = UrlGenerator.ToggleSidebarName)]
     public bool ToggledSidebar { get; set; }
     [Parameter] public RenderFragment? DrawerTarget { get; set; }

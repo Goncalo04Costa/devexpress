@@ -1,3 +1,31 @@
+/* Estilos para o cabeçalho */
+[b-1ep60l63it] .site-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72px;
+    background: #E8F2F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 100;
+}
+
+[b-1ep60l63it] header.site-header nav {
+    margin-top: 0.5rem;
+}
+
+    [b-1ep60l63it] header.site-header nav a {
+        color: #12444A;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        [b-1ep60l63it] header.site-header nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilos existentes */
 [b-1ep60l63it] .welcome-gridlayout {
     margin: auto;
     width: auto;
@@ -5,7 +33,7 @@
 }
 
 body[b-1ep60l63it] {
-    background: #F3F4F6; /* Cinza claro */
+    background: #F3F4F6;
 }
 
 [b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
@@ -58,11 +86,11 @@ body[b-1ep60l63it] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
-        color: #272E2E; /* Texto branco */
+        color: #272E2E;
     }
 
 [b-1ep60l63it] .icon-fill {
-    fill: #FACC15; /* Amarelo vibrante */
+    fill: #FACC15;
 }
 
 [b-1ep60l63it] .welcome-card .welcome-card-back {
@@ -76,20 +104,18 @@ body[b-1ep60l63it] {
     z-index: -2;
 }
 
-/* Estilo específico para o cartão "Ver o seu ticket" */
+/* Ajustes para o botão "Ver o seu ticket" */
 [b-1ep60l63it] .welcome-card-ver-ticket {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    width: 10rem;
-    height: 6rem;
+    position: absolute;
+    top: 0.5rem; /* Ajuste da posição do topo */
+    right: 0.5rem; /* Ajuste da posição da direita */
+    width: 8rem; /* Tamanho reduzido */
+    height: 4rem; /* Tamanho reduzido */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.2s, transform 0.2s;
+    background: #1B7C87;
     border-radius: 1rem;
     color: #FFFFFF;
     text-decoration: none;
@@ -102,13 +128,63 @@ body[b-1ep60l63it] {
     }
 
     [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-img {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem; /* Ícone menor */
+        height: 2.5rem; /* Ícone menor */
     }
 
     [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-text {
-        font-size: 1rem;
+        font-size: 0.875rem; /* Fonte menor */
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
     }
+
+
+/* Estilos para o rodapé */
+[b-1ep60l63it] .site-footer {
+    /* Layout Properties */
+    position: absolute;
+    bottom: 0; /* Posicionamento fixo no final da página */
+    left: 0;
+    width: 100%; /* Largura total */
+    height: 200px; /* Altura do rodapé */
+    /* UI Properties */
+    background: #0D3439; /* Cor de fundo */
+    opacity: 1; /* Opacidade */
+    z-index: 50; /* Garante que o rodapé fique abaixo de outros elementos, mas acima do fundo */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+    /* Adicionar conteúdo ao rodapé, como links e textos */
+    [b-1ep60l63it] .site-footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+    }
+
+    [b-1ep60l63it] .site-footer .footer-text {
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 10px 0;
+    }
+
+    [b-1ep60l63it] .site-footer .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+        [b-1ep60l63it] .site-footer .footer-links a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            [b-1ep60l63it] .site-footer .footer-links a:hover {
+                text-decoration: underline;
+            }

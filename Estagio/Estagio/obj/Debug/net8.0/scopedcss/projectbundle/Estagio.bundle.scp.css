@@ -207,6 +207,34 @@
     background-color: #E8F2F3;
 }
 /* _content/Estagio/Components/Pages/apoio.razor.rz.scp.css */
+/* Estilos para o cabeçalho */
+[b-1ep60l63it] .site-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72px;
+    background: #E8F2F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 100;
+}
+
+[b-1ep60l63it] header.site-header nav {
+    margin-top: 0.5rem;
+}
+
+    [b-1ep60l63it] header.site-header nav a {
+        color: #12444A;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        [b-1ep60l63it] header.site-header nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilos existentes */
 [b-1ep60l63it] .welcome-gridlayout {
     margin: auto;
     width: auto;
@@ -214,7 +242,7 @@
 }
 
 body[b-1ep60l63it] {
-    background: #F3F4F6; /* Cinza claro */
+    background: #F3F4F6;
 }
 
 [b-1ep60l63it] .welcome-gridlayout .dxbl-gridlayout-root {
@@ -267,11 +295,11 @@ body[b-1ep60l63it] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
-        color: #272E2E; /* Texto branco */
+        color: #272E2E;
     }
 
 [b-1ep60l63it] .icon-fill {
-    fill: #FACC15; /* Amarelo vibrante */
+    fill: #FACC15;
 }
 
 [b-1ep60l63it] .welcome-card .welcome-card-back {
@@ -285,20 +313,18 @@ body[b-1ep60l63it] {
     z-index: -2;
 }
 
-/* Estilo específico para o cartão "Ver o seu ticket" */
+/* Ajustes para o botão "Ver o seu ticket" */
 [b-1ep60l63it] .welcome-card-ver-ticket {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    width: 10rem;
-    height: 6rem;
+    position: absolute;
+    top: 0.5rem; /* Ajuste da posição do topo */
+    right: 0.5rem; /* Ajuste da posição da direita */
+    width: 8rem; /* Tamanho reduzido */
+    height: 4rem; /* Tamanho reduzido */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.2s, transform 0.2s;
+    background: #1B7C87;
     border-radius: 1rem;
     color: #FFFFFF;
     text-decoration: none;
@@ -311,16 +337,66 @@ body[b-1ep60l63it] {
     }
 
     [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-img {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem; /* Ícone menor */
+        height: 2.5rem; /* Ícone menor */
     }
 
     [b-1ep60l63it] .welcome-card-ver-ticket .welcome-card-text {
-        font-size: 1rem;
+        font-size: 0.875rem; /* Fonte menor */
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
     }
+
+
+/* Estilos para o rodapé */
+[b-1ep60l63it] .site-footer {
+    /* Layout Properties */
+    position: absolute;
+    bottom: 0; /* Posicionamento fixo no final da página */
+    left: 0;
+    width: 100%; /* Largura total */
+    height: 200px; /* Altura do rodapé */
+    /* UI Properties */
+    background: #0D3439; /* Cor de fundo */
+    opacity: 1; /* Opacidade */
+    z-index: 50; /* Garante que o rodapé fique abaixo de outros elementos, mas acima do fundo */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+    /* Adicionar conteúdo ao rodapé, como links e textos */
+    [b-1ep60l63it] .site-footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+    }
+
+    [b-1ep60l63it] .site-footer .footer-text {
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 10px 0;
+    }
+
+    [b-1ep60l63it] .site-footer .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+        [b-1ep60l63it] .site-footer .footer-links a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            [b-1ep60l63it] .site-footer .footer-links a:hover {
+                text-decoration: underline;
+            }
 /* _content/Estagio/Components/Pages/Comercial.razor.rz.scp.css */
 [b-fzb1f755a6] .welcome-gridlayout {
     margin: auto;
@@ -437,6 +513,34 @@ body[b-fzb1f755a6] {
         text-decoration: unset;
     }
 /* _content/Estagio/Components/Pages/Index.razor.rz.scp.css */
+/* Estilos para o cabeçalho */
+[b-inuu4pyxf3] .site-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72px;
+    background: #E8F2F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 100;
+}
+
+[b-inuu4pyxf3] header.site-header nav {
+    margin-top: 0.5rem;
+}
+
+    [b-inuu4pyxf3] header.site-header nav a {
+        color: #12444A;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        [b-inuu4pyxf3] header.site-header nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilos existentes */
 [b-inuu4pyxf3] .welcome-gridlayout {
     margin: auto;
     width: auto;
@@ -444,7 +548,7 @@ body[b-fzb1f755a6] {
 }
 
 body[b-inuu4pyxf3] {
-    background: #F3F4F6; /* Cinza claro */
+    background: #F3F4F6;
 }
 
 [b-inuu4pyxf3] .welcome-gridlayout .dxbl-gridlayout-root {
@@ -497,11 +601,11 @@ body[b-inuu4pyxf3] {
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
-        color: #272E2E; /* Texto branco */
+        color: #272E2E;
     }
 
 [b-inuu4pyxf3] .icon-fill {
-    fill: #FACC15; /* Amarelo vibrante */
+    fill: #FACC15;
 }
 
 [b-inuu4pyxf3] .welcome-card .welcome-card-back {
@@ -515,20 +619,18 @@ body[b-inuu4pyxf3] {
     z-index: -2;
 }
 
-/* Estilo específico para o cartão "Ver o seu ticket" */
+/* Ajustes para o botão "Ver o seu ticket" */
 [b-inuu4pyxf3] .welcome-card-ver-ticket {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    width: 10rem;
-    height: 6rem;
+    position: absolute;
+    top: 0.5rem; /* Ajuste da posição do topo */
+    right: 0.5rem; /* Ajuste da posição da direita */
+    width: 8rem; /* Tamanho reduzido */
+    height: 4rem; /* Tamanho reduzido */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.2s, transform 0.2s;
+    background: #1B7C87;
     border-radius: 1rem;
     color: #FFFFFF;
     text-decoration: none;
@@ -541,131 +643,66 @@ body[b-inuu4pyxf3] {
     }
 
     [b-inuu4pyxf3] .welcome-card-ver-ticket .welcome-card-img {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem; /* Ícone menor */
+        height: 2.5rem; /* Ícone menor */
     }
 
     [b-inuu4pyxf3] .welcome-card-ver-ticket .welcome-card-text {
-        font-size: 1rem;
+        font-size: 0.875rem; /* Fonte menor */
         font-weight: 600;
         text-align: center;
         text-decoration: unset;
     }
-/* _content/Estagio/Components/Pages/NovoTicketApoioATOMgest.razor.rz.scp.css */
-[b-mr90aebrou] .welcome-gridlayout {
-    margin: auto;
-    width: auto;
-    height: auto;
-}
 
-body[b-mr90aebrou] {
-    background: #F3F4F6; /* Cinza claro */
-}
 
-[b-mr90aebrou] .welcome-gridlayout .dxbl-gridlayout-root {
-    align-content: center;
-    justify-content: center;
-}
-
-[b-mr90aebrou] .title {
-    text-align: left;
-    color: #12444A;
-}
-
-[b-mr90aebrou] .welcome-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-    position: relative;
-}
-
-[b-mr90aebrou] .welcome-card {
-    width: 320px;
-    height: 114px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #E8F2F3;
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.2s, transform 0.2s;
-    border-radius: 1rem;
-    color: #272E2E;
-    gap: 1.5rem;
-    text-decoration: none;
-    position: relative;
-}
-
-    [b-mr90aebrou] .welcome-card:hover {
-        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
-        transform: translateY(-5px);
-    }
-
-    [b-mr90aebrou] .welcome-card .welcome-card-img {
-        width: 6.5rem;
-        height: 6.5rem;
-    }
-
-    [b-mr90aebrou] .welcome-card .welcome-card-text {
-        font-size: 1.75rem;
-        font-weight: 600;
-        text-align: center;
-        text-decoration: unset;
-        color: #272E2E; /* Texto branco */
-    }
-
-[b-mr90aebrou] .icon-fill {
-    fill: #FACC15; /* Amarelo vibrante */
-}
-
-[b-mr90aebrou] .welcome-card .welcome-card-back {
+/* Estilos para o rodapé */
+[b-inuu4pyxf3] .site-footer {
+    /* Layout Properties */
     position: absolute;
-    top: 0;
+    bottom: 0; /* Posicionamento fixo no final da página */
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
-    z-index: -2;
+    width: 100%; /* Largura total */
+    height: 200px; /* Altura do rodapé */
+    /* UI Properties */
+    background: #0D3439; /* Cor de fundo */
+    opacity: 1; /* Opacidade */
+    z-index: 50; /* Garante que o rodapé fique abaixo de outros elementos, mas acima do fundo */
+    color: #FFFFFF; /* Cor do texto */
 }
 
-/* Estilo específico para o cartão "Ver o seu ticket" */
-[b-mr90aebrou] .welcome-card-ver-ticket {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    width: 10rem;
-    height: 6rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #1E3A8A, #1E3A8A); /* Roxo degradê */
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.2s, transform 0.2s;
-    border-radius: 1rem;
-    color: #FFFFFF;
-    text-decoration: none;
-    z-index: 10;
-}
-
-    [b-mr90aebrou] .welcome-card-ver-ticket:hover {
-        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
-        transform: translateY(-3px);
+    /* Adicionar conteúdo ao rodapé, como links e textos */
+    [b-inuu4pyxf3] .site-footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
     }
 
-    [b-mr90aebrou] .welcome-card-ver-ticket .welcome-card-img {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    [b-mr90aebrou] .welcome-card-ver-ticket .welcome-card-text {
-        font-size: 1rem;
-        font-weight: 600;
+    [b-inuu4pyxf3] .site-footer .footer-text {
+        font-size: 1.25rem;
+        font-weight: 500;
         text-align: center;
-        text-decoration: unset;
+        color: #FFFFFF;
+        margin: 10px 0;
     }
+
+    [b-inuu4pyxf3] .site-footer .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+        [b-inuu4pyxf3] .site-footer .footer-links a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            [b-inuu4pyxf3] .site-footer .footer-links a:hover {
+                text-decoration: underline;
+            }
 /* _content/Estagio/Components/Pages/Ticket.razor.rz.scp.css */
 .custom-grid[b-azc9c56nmi] {
     background-color: #E8F2F3;

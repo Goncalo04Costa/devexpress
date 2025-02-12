@@ -145,12 +145,20 @@
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\logos.png",
+      "PackagePath": "staticwebassets\\images\\logos.png"
+    },
+    {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\menu.svg",
       "PackagePath": "staticwebassets\\images\\menu.svg"
     },
     {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\protextil-removebg-preview.png",
       "PackagePath": "staticwebassets\\images\\protextil-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\rodape.png",
+      "PackagePath": "staticwebassets\\images\\rodape.png"
     },
     {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\weather.svg",

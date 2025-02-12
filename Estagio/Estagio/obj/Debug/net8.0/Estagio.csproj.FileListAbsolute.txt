@@ -99,4 +99,3 @@ C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\D
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\MudBlazor.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Ticket.razor.rz.scp.css
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Alltickets.razor.rz.scp.css
-C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketApoioATOMgest.razor.rz.scp.css

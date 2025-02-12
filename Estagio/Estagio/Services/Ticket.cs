@@ -41,6 +41,7 @@ namespace Estagio.Services
         public string Assunto { get; set; }
         public EstadoTarefa Estado { get; set; }
 
+        public  IEnumerable<IFormFile> Ficheiro { get; set; }
 
     }
 
