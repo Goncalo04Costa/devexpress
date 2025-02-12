@@ -5,7 +5,7 @@
 }
 
 body[b-fzb1f755a6] {
-    background: #F3F4F6; /* Cinza claro */
+    background: #F3F4F6;
 }
 
 
@@ -16,7 +16,7 @@ body[b-fzb1f755a6] {
 
 [b-fzb1f755a6] .title {
     text-align: center;
-    color: #1E3A8A; /* Azul escuro */
+    color: #1E3A8A; 
 }
 
 [b-fzb1f755a6] .welcome-cards {
@@ -34,11 +34,11 @@ body[b-fzb1f755a6] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    background: linear-gradient(135deg, #2563EB, #1E40AF); 
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; /* Branco */
+    color: #FFFFFF; 
     gap: 1.5rem;
     text-decoration: none;
     position: relative;

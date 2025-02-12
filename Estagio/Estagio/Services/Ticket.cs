@@ -32,30 +32,16 @@ namespace Estagio.Services
 
     public class Ticket
     {
-        [Key]
-        public string Id { get; set; } 
-
-        [Required, MaxLength(100)]
+        public string Id { get; set; }
+        public DateTime Date { get; set; }
         public string Nome { get; set; }
-
-        [Required, MaxLength(100)]
         public string Empresa { get; set; }
-
-        [Required, EmailAddress]
         public string Email { get; set; }
-
-        [Required, Phone]
         public string Telefone { get; set; }
-
-        [Required, MaxLength(200)]
         public string Assunto { get; set; }
+        public EstadoTarefa Estado { get; set; }
 
-        [Required]
-        public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.UtcNow);
 
-        public IFormFile? Ficheiro { get; set; }
-
-        [Required]
-        public EstadoTarefa Estado { get; set; } = EstadoTarefa.PorIniciar;
     }
+
 }

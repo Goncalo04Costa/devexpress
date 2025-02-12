@@ -202,88 +202,6 @@
         display: block;
     }
 }
-/* _content/Estagio/Components/Layout/NavMenu.razor.rz.scp.css */
-#sidebar[b-wi8a24plzx] {
-    min-width: 15rem;
-    max-width: 15rem;
-    transition: transform 0.1s ease-out;
-    height: 100%;
-    max-height: 100%;
-    display: block;
-    background: inherit;
-}
-
-.logo[b-wi8a24plzx] {
-    text-align: center;
-}
-
-[b-wi8a24plzx] .menu.display-mobile {
-    margin-bottom: 2rem;
-}
-
-[b-wi8a24plzx] .menu.display-iam {
-    margin-bottom: 2rem;
-}
-
-[b-wi8a24plzx] .menu {
-    background-color: inherit;
-}
-
-    [b-wi8a24plzx] .menu .dxbl-menu-item-list {
-        gap: 0.5rem;
-    }
-
-[b-wi8a24plzx] .menu-item {
-    color: var(--bs-white);
-}
-
-[b-wi8a24plzx] .icon {
-    width: 1rem;
-    height: 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 0.5rem;
-}
-
-[b-wi8a24plzx] .home-icon {
-    background-image: url("images/home.svg");
-}
-
-[b-wi8a24plzx] .weather-icon {
-    background-image: url("images/weather.svg");
-}
-
-[b-wi8a24plzx] .counter-icon {
-    background-image: url("images/counter.svg");
-}
-
-[b-wi8a24plzx] .settings-icon {
-    background-image: url("images/account/settings.svg");
-}
-
-[b-wi8a24plzx] .log-in-icon {
-    background-image: url("images/account/log-in.svg");
-}
-
-[b-wi8a24plzx] .log-out-icon {
-    background-image: url("images/account/log-out.svg");
-}
-
-[b-wi8a24plzx] .user-icon {
-    background-image: url("images/account/user.svg");
-}
-
-@media (max-width: 768px) {
-    #sidebar[b-wi8a24plzx] {
-        min-width: inherit;
-        max-width: inherit;
-        display: block;
-    }
-
-    .logo[b-wi8a24plzx] {
-        text-align: inherit;
-    }
-}
 /* _content/Estagio/Components/Pages/apoio.razor.rz.scp.css */
 [b-1ep60l63it] .welcome-gridlayout {
     margin: auto;
@@ -407,7 +325,7 @@ body[b-1ep60l63it] {
 }
 
 body[b-fzb1f755a6] {
-    background: #F3F4F6; /* Cinza claro */
+    background: #F3F4F6;
 }
 
 
@@ -418,7 +336,7 @@ body[b-fzb1f755a6] {
 
 [b-fzb1f755a6] .title {
     text-align: center;
-    color: #1E3A8A; /* Azul escuro */
+    color: #1E3A8A; 
 }
 
 [b-fzb1f755a6] .welcome-cards {
@@ -436,11 +354,11 @@ body[b-fzb1f755a6] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
+    background: linear-gradient(135deg, #2563EB, #1E40AF); 
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
-    color: #FFFFFF; /* Branco */
+    color: #FFFFFF; 
     gap: 1.5rem;
     text-decoration: none;
     position: relative;
@@ -525,11 +443,10 @@ body[b-inuu4pyxf3] {
     background: #F3F4F6; /* Cinza claro */
 }
 
-
-    [b-inuu4pyxf3] .welcome-gridlayout .dxbl-gridlayout-root {
-        align-content: center;
-        justify-content: center;
-    }
+[b-inuu4pyxf3] .welcome-gridlayout .dxbl-gridlayout-root {
+    align-content: center;
+    justify-content: center;
+}
 
 [b-inuu4pyxf3] .title {
     text-align: center;
@@ -545,21 +462,33 @@ body[b-inuu4pyxf3] {
 }
 
 [b-inuu4pyxf3] .welcome-card {
-    width: 320px;
-    height: 114px;
+    width: 350px;
+    height: 144px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background: linear-gradient(135deg, #2563EB, #1E40AF); /* Azul degradê */
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s, transform 0.2s;
     border-radius: 1rem;
     color: #FFFFFF; /* Branco */
-    gap: 1.5rem;
     text-decoration: none;
     position: relative;
+    padding: 1rem;
 }
+
+    [b-inuu4pyxf3] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
     [b-inuu4pyxf3] .welcome-card:hover {
         box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);

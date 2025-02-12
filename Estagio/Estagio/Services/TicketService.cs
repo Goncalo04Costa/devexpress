@@ -9,88 +9,171 @@ namespace Estagio.Services
 {
     public class TicketService
     {
-        private readonly List<Ticket> tickets = new();
-        private readonly Random rng = new();
+        private static readonly Random random = new();
 
-        // Método para gerar um ID único e aleatório
-        private string GenerateUniqueId(int length = 16)
+        private readonly List<Ticket> tickets = new()
         {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            using var crypto = RandomNumberGenerator.Create();
-            var data = new byte[length];
-
-            crypto.GetBytes(data);
-
-            var result = new StringBuilder(length);
-            foreach (var b in data)
+            new Ticket
             {
-                result.Append(chars[b % chars.Length]);
+                Id = GenerateFixedRandomId("John Doe"),
+                Nome = "John Doe",
+                Empresa = "Tech Corp",
+                Email = "johndoe@example.com",
+                Telefone = "123456789",
+                Assunto = "Technical Issue",
+                Date = DateTime.Now.AddDays(-2),
+                Estado = EstadoTarefa.PorIniciar
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Alice Smith"),
+                Nome = "Alice Smith",
+                Empresa = "Health Inc.",
+                Email = "alice@example.com",
+                Telefone = "987654321",
+                Assunto = "Billing Inquiry",
+                Date = DateTime.Now,
+                Estado = EstadoTarefa.Concluido
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Peter Parker"),
+                Nome = "Peter Parker",
+                Empresa = "Daily Bugle",
+                Email = "peterparker@example.com",
+                Telefone = "111222333",
+                Assunto = "Web Design Issue",
+                Date = DateTime.Now.AddDays(-1),
+                Estado = EstadoTarefa.EmCurso
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Bruce Wayne"),
+                Nome = "Bruce Wayne",
+                Empresa = "Wayne Enterprises",
+                Email = "brucewayne@example.com",
+                Telefone = "444555666",
+                Assunto = "System Outage",
+                Date = DateTime.Now.AddDays(-3),
+                Estado = EstadoTarefa.Concluido
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Clark Kent"),
+                Nome = "Clark Kent",
+                Empresa = "Daily Planet",
+                Email = "clarkkent@example.com",
+                Telefone = "777888999",
+                Assunto = "Printing Error",
+                Date = DateTime.Now.AddDays(-4),
+                Estado = EstadoTarefa.PorIniciar
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Diana Prince"),
+                Nome = "Diana Prince",
+                Empresa = "Themyscira",
+                Email = "dianaprince@example.com",
+                Telefone = "222333444",
+                Assunto = "Database Issue",
+                Date = DateTime.Now.AddDays(-1),
+                Estado = EstadoTarefa.EmCurso
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Tony Starks"),
+                Nome = "Tony Stark",
+                Empresa = "Stark Industries",
+                Email = "tonystark@example.com",
+                Telefone = "555666777",
+                Assunto = "Hardware Failure",
+                Date = DateTime.Now.AddDays(-5),
+                Estado = EstadoTarefa.Concluido
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Steve Rogers"),
+                Nome = "Steve Rogers",
+                Empresa = "Avengers Inc.",
+                Email = "steverogers@example.com",
+                Telefone = "888999000",
+                Assunto = "Login Problem",
+                Date = DateTime.Now.AddDays(-2),
+                Estado = EstadoTarefa.PorIniciar
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Natasha Romanoff"),
+                Nome = "Natasha Romanoff",
+                Empresa = "S.H.I.E.L.D",
+                Email = "natasha@example.com",
+                Telefone = "333444555",
+                Assunto = "Email Issue",
+                Date = DateTime.Now.AddDays(-1),
+                Estado = EstadoTarefa.EmCurso
+            },
+            new Ticket
+            {
+                Id = GenerateFixedRandomId("Barry Allen"),
+                Nome = "Barry Allen",
+                Empresa = "Central City Labs",
+                Email = "barryallen@example.com",
+                Telefone = "666777888",
+                Assunto = "Network Lag",
+                Date = DateTime.Now.AddDays(-2),
+                Estado = EstadoTarefa.Concluido
             }
+        };
 
-            return result.ToString();
+        private static string GenerateFixedRandomId(string input)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
+                return BitConverter.ToString(hashBytes.Take(8).ToArray()).Replace("-", "").ToLower();
+            }
         }
 
-        // Método que preenche a lista com tickets de exemplo
-        public async Task<Ticket[]> GetTicketsAsync(DateOnly startDate)
-        {
-            if (tickets.Count == 0)
-            {
-                var estados = Enum.GetValues<EstadoTarefa>();
+        private string GenerateUniqueId() => Guid.NewGuid().ToString("N");
 
-                tickets.AddRange(Enumerable.Range(1, 20).Select(index => new Ticket
-                {
-                    Id = GenerateUniqueId(),  // Gerar um ID único para cada ticket
-                    Date = startDate.AddDays(index),
-                    Nome = $"Nome {index}",
-                    Email = $"client{index}@email.com",
-                    Telefone = $"Phone {index}",
-                    Assunto = $"Assunto do Ticket {index}",
-                    Estado = estados.ElementAt(rng.Next(estados.Length))
-                }));
-            }
-            return await Task.Run(() => tickets.ToArray());
+        public Task<Ticket[]> GetTicketsAsync(DateOnly startDate)
+        {
+            // Retorna todos os tickets sem modificações
+            return Task.FromResult(tickets.ToArray());
         }
 
-
-        public async Task AddNewTicketAsync(Ticket newTicket)
+        public Task AddNewTicketAsync(Ticket newTicket)
         {
             if (newTicket == null)
-            {
                 throw new ArgumentNullException(nameof(newTicket), "O ticket não pode ser nulo.");
+
+            // Se o ID não foi atribuído, gera um ID fixo e aleatório baseado no nome
+            if (string.IsNullOrEmpty(newTicket.Id))
+            {
+                newTicket.Id = GenerateFixedRandomId(newTicket.Nome);
             }
 
-            newTicket.Id = GenerateUniqueId();  
-            newTicket.Date = DateOnly.FromDateTime(DateTime.UtcNow);
-
-            await Task.Run(() => tickets.Add(newTicket));
+            newTicket.Date = DateTime.Now;
+            tickets.Add(newTicket);
+            return Task.CompletedTask;
         }
 
-
-        public async Task<Ticket[]> SearchTicketsByClientContactAsync(string telefone)
+        public Task<Ticket[]> SearchTicketsByClientContactAsync(string telefone)
         {
-            if (string.IsNullOrWhiteSpace(telefone))
-            {
-                return Array.Empty<Ticket>();
-            }
+            var result = string.IsNullOrWhiteSpace(telefone)
+                ? Array.Empty<Ticket>()
+                : tickets.Where(t => t.Telefone.Contains(telefone, StringComparison.OrdinalIgnoreCase)).ToArray();
 
-            return await Task.Run(() =>
-                tickets.Where(ticket => ticket.Telefone.Equals(telefone, StringComparison.OrdinalIgnoreCase)).ToArray()
-            );
+            return Task.FromResult(result);
         }
 
-
-
-      
-        public async Task<Ticket[]> SearchTicketsByCOdetAsync(string codigo)
+        public Task<Ticket[]> SearchTicketsByCodeAsync(string codigo)
         {
-            if (string.IsNullOrWhiteSpace(codigo))
-            {
-                return Array.Empty<Ticket>();
-            }
+            var result = string.IsNullOrWhiteSpace(codigo)
+                ? Array.Empty<Ticket>()
+                : tickets.Where(t => t.Id.Equals(codigo, StringComparison.OrdinalIgnoreCase)).ToArray();
 
-            return await Task.Run(() =>
-                tickets.Where(ticket => ticket.Id.Equals(codigo, StringComparison.OrdinalIgnoreCase)).ToArray()
-            );
+            return Task.FromResult(result);
         }
     }
 }

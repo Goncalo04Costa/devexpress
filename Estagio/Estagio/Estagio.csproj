@@ -10,7 +10,6 @@
   <ItemGroup>
     <Content Remove="Components\Pages\Forms.razor" />
     <Content Remove="Components\Pages\Procura.razor" />
-    <Content Remove="Components\Pages\Ticket.razor" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Blazor" Version="24.2.3" />
