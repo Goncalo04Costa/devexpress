@@ -1,4 +1,9 @@
 ﻿@page "/"
+@using Estagio.Services
+@inject TicketService TicketService
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
@@ -42,7 +47,7 @@
             <DxGridLayoutItem Area="text" CssClass="site-text">
                 <Template>
                     <div class="title-header-text">Ajuda e Contacto!</div>
-                    <div class="title-content-text">Oferecemos suporte aos nossos clientes! Conte conosco</div>
+                    <div class="title-content-text">Oferecemos suporte aos nossos clientes! Conte connosco</div>
                 </Template>
             </DxGridLayoutItem>
 
@@ -63,13 +68,13 @@
                         <div class="welcome-card-text">Comercial</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-                 @*    <NavLink class="welcome-card" href="/alltickets">
+                    <NavLink class="welcome-card" href="/alltickets">
                         <svg class="welcome-card-img" aria-label="Comercial">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">ver todos</div>
                         <div class="welcome-card-back"></div>
-                    </NavLink> *@
+                    </NavLink>
                 </Template>
             </DxGridLayoutItem>
         </Items>
@@ -85,7 +90,6 @@
             </div>
             <!-- Links do rodapé -->
             <div class="footer-links">
-              
             </div>
             <!-- Imagens no Rodapé -->
             <div class="footer-images">
@@ -101,9 +105,8 @@
     [SupplyParameterFromQuery(Name = "toggleSidebar")]
     public bool ToggledSidebar { get; set; }
 
-    // Defina como false para garantir que a sidebar (navbar) não apareça
     protected override void OnInitialized()
     {
         ToggledSidebar = false; // Remover a barra lateral
     }
-}
+} 

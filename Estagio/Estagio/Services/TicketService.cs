@@ -12,118 +12,136 @@ namespace Estagio.Services
         private static readonly Random random = new();
 
         private readonly List<Ticket> tickets = new()
+{
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("John Doe"),
+        Nome = "John Doe",
+        Empresa = "Tech Corp",
+        Email = "johndoe@example.com",
+        Telefone = "123456789",
+        Assunto = "Technical Issue",
+        Date = DateTime.Now.AddDays(-2),
+        Estado = EstadoTarefa.PorIniciar,
+        Ficheiros = new List<UploadedFile>
         {
-            new Ticket
+            new UploadedFile
             {
-                Id = GenerateFixedRandomId("John Doe"),
-                Nome = "John Doe",
-                Empresa = "Tech Corp",
-                Email = "johndoe@example.com",
-                Telefone = "123456789",
-                Assunto = "Technical Issue",
-                Date = DateTime.Now.AddDays(-2),
-                Estado = EstadoTarefa.PorIniciar
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Alice Smith"),
-                Nome = "Alice Smith",
-                Empresa = "Health Inc.",
-                Email = "alice@example.com",
-                Telefone = "987654321",
-                Assunto = "Billing Inquiry",
-                Date = DateTime.Now,
-                Estado = EstadoTarefa.Concluido
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Peter Parker"),
-                Nome = "Peter Parker",
-                Empresa = "Daily Bugle",
-                Email = "peterparker@example.com",
-                Telefone = "111222333",
-                Assunto = "Web Design Issue",
-                Date = DateTime.Now.AddDays(-1),
-                Estado = EstadoTarefa.EmCurso
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Bruce Wayne"),
-                Nome = "Bruce Wayne",
-                Empresa = "Wayne Enterprises",
-                Email = "brucewayne@example.com",
-                Telefone = "444555666",
-                Assunto = "System Outage",
-                Date = DateTime.Now.AddDays(-3),
-                Estado = EstadoTarefa.Concluido
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Clark Kent"),
-                Nome = "Clark Kent",
-                Empresa = "Daily Planet",
-                Email = "clarkkent@example.com",
-                Telefone = "777888999",
-                Assunto = "Printing Error",
-                Date = DateTime.Now.AddDays(-4),
-                Estado = EstadoTarefa.PorIniciar
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Diana Prince"),
-                Nome = "Diana Prince",
-                Empresa = "Themyscira",
-                Email = "dianaprince@example.com",
-                Telefone = "222333444",
-                Assunto = "Database Issue",
-                Date = DateTime.Now.AddDays(-1),
-                Estado = EstadoTarefa.EmCurso
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Tony Starks"),
-                Nome = "Tony Stark",
-                Empresa = "Stark Industries",
-                Email = "tonystark@example.com",
-                Telefone = "555666777",
-                Assunto = "Hardware Failure",
-                Date = DateTime.Now.AddDays(-5),
-                Estado = EstadoTarefa.Concluido
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Steve Rogers"),
-                Nome = "Steve Rogers",
-                Empresa = "Avengers Inc.",
-                Email = "steverogers@example.com",
-                Telefone = "888999000",
-                Assunto = "Login Problem",
-                Date = DateTime.Now.AddDays(-2),
-                Estado = EstadoTarefa.PorIniciar
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Natasha Romanoff"),
-                Nome = "Natasha Romanoff",
-                Empresa = "S.H.I.E.L.D",
-                Email = "natasha@example.com",
-                Telefone = "333444555",
-                Assunto = "Email Issue",
-                Date = DateTime.Now.AddDays(-1),
-                Estado = EstadoTarefa.EmCurso
-            },
-            new Ticket
-            {
-                Id = GenerateFixedRandomId("Barry Allen"),
-                Nome = "Barry Allen",
-                Empresa = "Central City Labs",
-                Email = "barryallen@example.com",
-                Telefone = "666777888",
-                Assunto = "Network Lag",
-                Date = DateTime.Now.AddDays(-2),
-                Estado = EstadoTarefa.Concluido
+                FileName = "issue_report.pdf",
+                FileType = "application/pdf",
+                FileData = new byte[] { }
             }
-        };
+        }
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Alice Smith"),
+        Nome = "Alice Smith",
+        Empresa = "Health Inc.",
+        Email = "alice@example.com",
+        Telefone = "987654321",
+        Assunto = "Billing Inquiry",
+        Date = DateTime.Now,
+        Estado = EstadoTarefa.Concluido,
+        Ficheiros = new List<UploadedFile>() 
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Peter Parker"),
+        Nome = "Peter Parker",
+        Empresa = "Daily Bugle",
+        Email = "peterparker@example.com",
+        Telefone = "111222333",
+        Assunto = "Web Design Issue",
+        Date = DateTime.Now.AddDays(-1),
+        Estado = EstadoTarefa.EmCurso,
+        Ficheiros = new List<UploadedFile>() 
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Bruce Wayne"),
+        Nome = "Bruce Wayne",
+        Empresa = "Wayne Enterprises",
+        Email = "brucewayne@example.com",
+        Telefone = "444555666",
+        Assunto = "System Outage",
+        Date = DateTime.Now.AddDays(-3),
+        Estado = EstadoTarefa.Concluido,
+        Ficheiros = new List<UploadedFile>()
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Clark Kent"),
+        Nome = "Clark Kent",
+        Empresa = "Daily Planet",
+        Email = "clarkkent@example.com",
+        Telefone = "777888999",
+        Assunto = "Printing Error",
+        Date = DateTime.Now.AddDays(-4),
+        Estado = EstadoTarefa.PorIniciar,
+        Ficheiros = new List<UploadedFile>() 
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Diana Prince"),
+        Nome = "Diana Prince",
+        Empresa = "Themyscira",
+        Email = "dianaprince@example.com",
+        Telefone = "222333444",
+        Assunto = "Database Issue",
+        Date = DateTime.Now.AddDays(-1),
+        Estado = EstadoTarefa.EmCurso,
+        Ficheiros = new List<UploadedFile>()
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Tony Starks"),
+        Nome = "Tony Stark",
+        Empresa = "Stark Industries",
+        Email = "tonystark@example.com",
+        Telefone = "555666777",
+        Assunto = "Hardware Failure",
+        Date = DateTime.Now.AddDays(-5),
+        Estado = EstadoTarefa.Concluido,
+        Ficheiros = new List<UploadedFile>()
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Steve Rogers"),
+        Nome = "Steve Rogers",
+        Empresa = "Avengers Inc.",
+        Email = "steverogers@example.com",
+        Telefone = "888999000",
+        Assunto = "Login Problem",
+        Date = DateTime.Now.AddDays(-2),
+        Estado = EstadoTarefa.PorIniciar,
+        Ficheiros = new List<UploadedFile>()
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Natasha Romanoff"),
+        Nome = "Natasha Romanoff",
+        Empresa = "S.H.I.E.L.D",
+        Email = "natasha@example.com",
+        Telefone = "333444555",
+        Assunto = "Email Issue",
+        Date = DateTime.Now.AddDays(-1),
+        Estado = EstadoTarefa.EmCurso,
+        Ficheiros = new List<UploadedFile>() 
+    },
+    new Ticket
+    {
+        Id = GenerateFixedRandomId("Barry Allen"),
+        Nome = "Barry Allen",
+        Empresa = "Central City Labs",
+        Email = "barryallen@example.com",
+        Telefone = "666777888",
+        Assunto = "Network Lag",
+        Date = DateTime.Now.AddDays(-2),
+        Estado = EstadoTarefa.Concluido,
+        Ficheiros = new List<UploadedFile>() 
+    }
+};
 
         private static string GenerateFixedRandomId(string input)
         {
@@ -138,7 +156,7 @@ namespace Estagio.Services
 
         public Task<Ticket[]> GetTicketsAsync(DateOnly startDate)
         {
-            // Retorna todos os tickets sem modificações
+            
             return Task.FromResult(tickets.ToArray());
         }
 

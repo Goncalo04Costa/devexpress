@@ -99,3 +99,13 @@ C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\D
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\bin\Debug\net8.0\MudBlazor.dll
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Ticket.razor.rz.scp.css
 C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\Alltickets.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketComercialPROtextil.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketComercialIT.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketComercialATOMgest.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketComercialFinanceiro.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketApoioPROtextil.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketApoioATOMgest.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketApoioFinanceiro.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\NovoTicketApoioIT.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\statistic.razor.rz.scp.css
+C:\Users\gonca\OneDrive\Ambiente de Trabalho\testesEstagio\Estagio\Estagio\obj\Debug\net8.0\scopedcss\Components\Pages\sucess.razor.rz.scp.css

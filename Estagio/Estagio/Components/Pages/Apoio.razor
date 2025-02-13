@@ -9,13 +9,25 @@
 <div class="main-content">
     <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
         <Rows>
+            <!-- Linha para o texto fora do cabeçalho -->
+            <DxGridLayoutRow Height="auto" Areas="text"></DxGridLayoutRow>
             <!-- Linha para o cabeçalho -->
             <DxGridLayoutRow Height="auto" Areas="header"></DxGridLayoutRow>
             <!-- Linha para os cartões -->
             <DxGridLayoutRow Height="auto" Areas="cards"></DxGridLayoutRow>
         </Rows>
         <Items>
-            <!-- Cabeçalho com o título "Apoio ao Cliente" -->
+            <!-- Texto fora do cabeçalho -->
+            <DxGridLayoutItem Area="text" CssClass="site-text">
+                <Template>
+                    <div class="title-header-text">
+                        <NavLink class="arrow-link" href="/">></NavLink>
+                        Apoio ao Cliente!
+                    </div>
+                </Template>
+            </DxGridLayoutItem>
+
+            <!-- Cabeçalho -->
             <DxGridLayoutItem Area="header" CssClass="site-header">
                 <Template>
                     <header>
@@ -46,7 +58,7 @@
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-                    <NavLink class="welcome-card" href="/novoticketapoioATOMGest">
+                    <NavLink class="welcome-card" href="/novoticketapoiolATOMGest">
                         <img class="welcome-card-img" src="images/ATOMgest-removebg-preview.png" alt="Apoio" />
                         <div class="welcome-card-text">ATOMGest</div>
                         <div class="welcome-card-back"></div>
@@ -71,20 +83,18 @@
             </DxGridLayoutItem>
         </Items>
     </DxGridLayout>
-</div>
 
-<!-- Rodapé -->
-<div class="site-footer">
-    <div class="footer-content">
-        <!-- Texto do rodapé -->
-        <div class="footer-text">
-            © 2025 Seu Nome - Todos os direitos reservados.
-        </div>
-        <!-- Links do rodapé -->
-        <div class="footer-links">
-            <NavLink href="/sobre">Sobre</NavLink>
-            <NavLink href="/privacidade">Política de Privacidade</NavLink>
-            <NavLink href="/contato">Contato</NavLink>
+    <!-- Rodapé -->
+    <div class="site-footer">
+        <div class="footer-content">
+            <!-- Texto do rodapé -->
+            <div class="footer-text">
+                © 2025 Seu Nome - Todos os direitos reservados.
+            </div>
+            <!-- Imagens no Rodapé -->
+            <div class="footer-images">
+                <img class="footer-logo" src="images/rodape.png" alt="Logo 1" />
+            </div>
         </div>
     </div>
 </div>

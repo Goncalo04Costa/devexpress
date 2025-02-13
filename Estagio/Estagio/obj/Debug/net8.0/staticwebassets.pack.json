@@ -161,6 +161,10 @@
       "PackagePath": "staticwebassets\\images\\rodape.png"
     },
     {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\transferir.png",
+      "PackagePath": "staticwebassets\\images\\transferir.png"
+    },
+    {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\weather.svg",
       "PackagePath": "staticwebassets\\images\\weather.svg"
     },

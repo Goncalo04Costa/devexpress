@@ -2,53 +2,75 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
-
 <PageTitle>Comercial</PageTitle>
-
-
 
 <p>Inicio > <bold>Comercial</bold></p>
 
 <div class="main-content">
     <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
         <Rows>
+           
+ <!-- Linha para o texto fora do cabeçalho -->
+            <DxGridLayoutRow Height="auto" Areas="text"></DxGridLayoutRow>
+            <!-- Linha para o cabeçalho -->
             <DxGridLayoutRow Height="auto" Areas="header"></DxGridLayoutRow>
+            <!-- Linha para os cartões -->
             <DxGridLayoutRow Height="auto" Areas="cards"></DxGridLayoutRow>
         </Rows>
         <Items>
-            <DxGridLayoutItem Area="header" CssClass="title">
+            <!-- Texto fora do cabeçalho -->
+            <DxGridLayoutItem Area="text" CssClass="site-text">
                 <Template>
                     <div class="title-header-text">
                         <NavLink class="arrow-link" href="/">></NavLink>
                         Comercial!
                     </div>
                 </Template>
-
             </DxGridLayoutItem>
+
+            <!-- Cabeçalho -->
+            <DxGridLayoutItem Area="header" CssClass="site-header">
+                <Template>
+                    <header>
+                        <div class="header-content" style="display: flex; align-items: center; justify-content: space-between; padding: 1rem; background-color: #E8F2F3; border-radius: 8px;">
+                            <div class="title-text">
+                                <img class="welcome-card-img" src="images/logos.png" alt="Logos" />
+                            </div>
+                            <div class="ticket-button">
+                                <NavLink class="welcome-card welcome-card-ver-ticket" href="/ticket" style="background-color: #00A9A9; color: white; padding: 10px 20px; border-radius: 5px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease;">
+                                    <svg class="welcome-card-img" aria-label="Ver o seu ticket" style="fill: white;">
+                                        <use href="images/cards.svg#tickets"></use>
+                                    </svg>
+                                    <div class="welcome-card-text">Ver o seu ticket</div>
+                                    <div class="welcome-card-back"></div>
+                                </NavLink>
+                            </div>
+                        </div>
+                    </header>
+                </Template>
+            </DxGridLayoutItem>
+            <!-- Área de cartões de Apoio -->
             <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
                 <Template>
                     <NavLink class="welcome-card" href="/novoticketcomercialPROtextil">
-                        <img class="welcome-card-img" src="images/protextil-removebg-preview.png" alt="Comercial" />
+                        <img class="welcome-card-img" src="images/protextil-removebg-preview.png" alt="Apoio" />
                         <div class="welcome-card-text">PROtextil</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-
                     <NavLink class="welcome-card" href="/novoticketcomercialATOMGest">
-                        <img class="welcome-card-img" src="images/ATOMgest-removebg-preview.png" alt="Comercial" />
+                        <img class="welcome-card-img" src="images/ATOMgest-removebg-preview.png" alt="Apoio" />
                         <div class="welcome-card-text">ATOMGest</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
 
-
                     <NavLink class="welcome-card" href="/novoticketcomercialIT">
-                        <svg class="welcome-card-img" aria-label="View Tickets">
+                        <svg class="welcome-card-img" aria-label="ATOM">
                             <use href="images/cards.svg#tickets"></use>
                         </svg>
                         <div class="welcome-card-text">IT</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-
 
                     <NavLink class="welcome-card" href="/novoticketcomercialFinanceiro">
                         <svg class="welcome-card-img" aria-label="View Tickets">
@@ -57,15 +79,27 @@
                         <div class="welcome-card-text">Financeiro</div>
                         <div class="welcome-card-back"></div>
                     </NavLink>
-
-
                 </Template>
             </DxGridLayoutItem>
         </Items>
     </DxGridLayout>
+
+    <!-- Rodapé -->
+    <div class="site-footer">
+        <div class="footer-content">
+            <!-- Texto do rodapé -->
+            <div class="footer-text">
+                © 2025 Seu Nome - Todos os direitos reservados.
+            </div>
+            <!-- Imagens no Rodapé -->
+            <div class="footer-images">
+                <img class="footer-logo" src="images/rodape.png" alt="Logo 1" />
+            </div>
+        </div>
+    </div>
 </div>
 
 @code {
     [SupplyParameterFromQuery(Name = "toggleSidebar")]
     public bool ToggledSidebar { get; set; }
-} 
+}

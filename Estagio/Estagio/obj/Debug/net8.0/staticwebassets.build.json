@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VTzFIw00ML1RFDAA2HvBjlzRQGaYP9VSmp7aJNLtxJc=",
+  "Hash": "X7hxKzeLOg04M4sfBYzfAxXbHeLv4kg96isRUufhLIA=",
   "Source": "Estagio",
   "BasePath": "_content/Estagio",
   "Mode": "Default",
@@ -4936,6 +4936,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\rodape.png"
+    },
+    {
+      "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\transferir.png",
+      "SourceId": "Estagio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\",
+      "BasePath": "_content/Estagio",
+      "RelativePath": "images/transferir.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\transferir.png"
     },
     {
       "Identity": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\testesEstagio\\Estagio\\Estagio\\wwwroot\\images\\weather.svg",

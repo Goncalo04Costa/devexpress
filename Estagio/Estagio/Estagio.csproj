@@ -5,12 +5,60 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="wwwroot\uploads\Gonçalo_assssssssssssssssssssss_13_02_2025_16_37_01\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_15_21\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_49_18\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_22_35\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_27_55\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_23_16\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_24_02\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_48_04\**" />
+    <Compile Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_50_28\**" />
+    <Compile Remove="wwwroot\uploads\__01_01_0001_00_00_00\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_assssssssssssssssssssss_13_02_2025_16_37_01\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_15_21\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_49_18\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_22_35\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_27_55\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_23_16\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_24_02\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_48_04\**" />
+    <Content Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_50_28\**" />
+    <Content Remove="wwwroot\uploads\__01_01_0001_00_00_00\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_assssssssssssssssssssss_13_02_2025_16_37_01\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_15_21\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_49_18\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_22_35\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_27_55\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_23_16\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_24_02\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_48_04\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_50_28\**" />
+    <EmbeddedResource Remove="wwwroot\uploads\__01_01_0001_00_00_00\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_assssssssssssssssssssss_13_02_2025_16_37_01\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_15_21\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_costa_assssssssssssssssssssss_13_02_2025_12_49_18\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_22_35\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_assssssssssssssssssssss_13_02_2025_12_27_55\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_23_16\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_24_02\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_48_04\**" />
+    <None Remove="wwwroot\uploads\Gonçalo_Costa_Gonçalo_pasoiaoskad_13_02_2025_12_50_28\**" />
+    <None Remove="wwwroot\uploads\__01_01_0001_00_00_00\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Remove="Components\Pages\NewTicketcs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Components\Pages\Forms.razor" />
     <Content Remove="Components\Pages\Procura.razor" />
-    <Content Remove="Components\Pages\upload.razor" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Components\Pages\Ticketcriadocomsucesso.razir" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Blazor" Version="24.2.3" />
@@ -18,6 +66,6 @@
     <PackageReference Include="MudBlazor" Version="8.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Components\Pages\upload.razor" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 </Project>

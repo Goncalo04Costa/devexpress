@@ -41,8 +41,23 @@ namespace Estagio.Services
         public string Assunto { get; set; }
         public EstadoTarefa Estado { get; set; }
 
-        public  IEnumerable<IFormFile> Ficheiro { get; set; }
+
+
+        public string FicheirosNames => string.Join(", ", Ficheiros.Select(f => f.FileName));
+        public List<UploadedFile> Ficheiros { get; set; } = new();
 
     }
 
+    public class UploadedFile
+    {
+        public string FileName { get; set; }
+        public byte[] FileData { get; set; }
+        public string FileType { get; set; }
+
+        public string TicketId { get; set; }
+        public Ticket Ticket { get; set; }
+
+    }
 }
+
+

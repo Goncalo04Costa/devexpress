@@ -1,0 +1,235 @@
+input[b-r80mgs5kyq] {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+/* Estilos para o cabeçalho */
+[b-r80mgs5kyq] .site-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72px;
+    background: #E8F2F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 100;
+}
+
+[b-r80mgs5kyq] header.site-header nav {
+    margin-top: 0.5rem;
+}
+
+    [b-r80mgs5kyq] header.site-header nav a {
+        color: #12444A;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        [b-r80mgs5kyq] header.site-header nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Estilos existentes */
+[b-r80mgs5kyq] .welcome-gridlayout {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+body[b-r80mgs5kyq] {
+    background: #F3F4F6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Garantir que o body ocupe a altura total da tela */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Habilitar rolagem quando necessário */
+}
+
+[b-r80mgs5kyq] .welcome-gridlayout .dxbl-gridlayout-root {
+    align-content: center;
+    justify-content: center;
+}
+
+[b-r80mgs5kyq] .title {
+    text-align: left;
+    color: #12444A;
+}
+
+[b-r80mgs5kyq] .welcome-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    position: relative;
+}
+
+[b-r80mgs5kyq] .welcome-card {
+    width: 320px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E8F2F3;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s, transform 0.2s;
+    border-radius: 1rem;
+    color: #272E2E;
+    gap: 1.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+    [b-r80mgs5kyq] .welcome-card:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    [b-r80mgs5kyq] .welcome-card .welcome-card-img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    [b-r80mgs5kyq] .welcome-card .welcome-card-text {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: unset;
+        color: #272E2E;
+    }
+
+[b-r80mgs5kyq] .icon-fill {
+    fill: #FACC15;
+}
+
+[b-r80mgs5kyq] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    z-index: -2;
+}
+
+/* Ajustes para o botão "Ver o seu ticket" */
+[b-r80mgs5kyq] .welcome-card-ver-ticket {
+    position: absolute;
+    top: 0.5rem; /* Ajuste da posição do topo */
+    right: 0.5rem; /* Ajuste da posição da direita */
+    width: 8rem; /* Tamanho reduzido */
+    height: 4rem; /* Tamanho reduzido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1B7C87;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 10;
+}
+
+    [b-r80mgs5kyq] .welcome-card-ver-ticket:hover {
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.3), 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+
+    [b-r80mgs5kyq] .welcome-card-ver-ticket .welcome-card-img {
+        width: 2.5rem; /* Ícone menor */
+        height: 2.5rem; /* Ícone menor */
+    }
+
+    [b-r80mgs5kyq] .welcome-card-ver-ticket .welcome-card-text {
+        font-size: 0.875rem; /* Fonte menor */
+        font-weight: 600;
+        text-align: center;
+        text-decoration: unset;
+    }
+
+
+/* Estilos para o rodapé */
+[b-r80mgs5kyq] .site-footer {
+    /* Layout Properties */
+    position: absolute;
+    bottom: 0; /* Posicionamento fixo no final da página */
+    left: 0;
+    width: 100%; /* Largura total */
+    height: 200px; /* Altura do rodapé */
+    /* UI Properties */
+    background: #0D3439; /* Cor de fundo */
+    opacity: 1; /* Opacidade */
+    z-index: 50; /* Garante que o rodapé fique abaixo de outros elementos, mas acima do fundo */
+    color: #FFFFFF; /* Cor do texto */
+}
+
+
+    [b-r80mgs5kyq] .site-footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+    }
+
+    [b-r80mgs5kyq] .site-footer .footer-text {
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 10px 0;
+    }
+
+    [b-r80mgs5kyq] .site-footer .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+        [b-r80mgs5kyq] .site-footer .footer-links a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            [b-r80mgs5kyq] .site-footer .footer-links a:hover {
+                text-decoration: underline;
+            }
+
+
+.larger-textarea[b-r80mgs5kyq] {
+    height: 30px;
+}
+
+
+.custom-upload-button[b-r80mgs5kyq] {
+    background-color: #1B7C87;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.custom-submit-button[b-r80mgs5kyq] {
+    background-color: #1B7C87;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+
+.custom-drop-zone[b-r80mgs5kyq] {
+    background-color: #f8f9fa;
+}
+
+.custom-drop-zone-hover[b-r80mgs5kyq] {
+    background-color: #e0e0e0;
+}
