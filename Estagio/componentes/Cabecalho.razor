@@ -1,0 +1,60 @@
+﻿
+<header class="cabecalho">
+    
+    <div class="cabecalhoesq">
+        <img class="logoGOT" src="../imagens/Logo-growing-together-prioritario-cores.svg" alt="Logo GOT" />
+  
+    @if (imagem)
+    {
+        <div class="byinforcavadologo"> 
+            <img class="logoInfor" src="../imagens/inforcavado.svg" alt="Logo Inforcavado" style="width:24px; height:24px" />
+
+
+
+        <p class="byInforcavado">
+            ByInforcávado
+        </p>
+        </div>
+    }
+    </div>
+
+    <div class="cabecalhoesq">
+
+    
+    @if (botoesrf != null)
+    {
+        
+    }
+    else
+    {
+        @if (botoes == Botoes.Acompanhamento)
+        {
+           
+                <a href="/Apoio" class="verticket" target="_blank" style="text-decoration: none;">
+                    <p> Acompanhar Ticket</p>
+                </a>
+
+                <a href="https://inforcavado.com" class="website" target="_blank" style="text-decoration: none;">
+                    <p>Website Inforcavado</p>
+                </a>
+
+            
+        }
+    }
+    </div>
+</header>
+
+@code {
+
+    [Parameter] public bool imagem { get; set; }
+
+    [Parameter] public Botoes botoes { get; set; } = Botoes.Acompanhamento;
+
+    [Parameter] public RenderFragment? botoesrf { get; set; }
+
+    public enum Botoes
+    {
+        Acompanhamento = 1,
+        Novo = 2
+    }
+}

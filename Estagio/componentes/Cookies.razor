@@ -1,0 +1,23 @@
+﻿@if (CookieVisivel)
+{
+    <header class="cookie">
+        <div class="texto-container">
+            <span class="texto">
+                Utilizamos cookies para melhorar a sua experiência. Ao continuar, concorda com a utilização de cookies.
+            </span>
+            <a href="https://inforcavado.com" class="sublinhado" target="_blank">
+                Saiba mais
+            </a>
+        </div>
+        <button class="fechar-aviso" @onclick="Desaparece">Ok, entendi</button>
+    </header>
+}
+
+@code {
+    private bool CookieVisivel = true;
+
+    private void Desaparece()
+    {
+        CookieVisivel = false;
+    }
+}

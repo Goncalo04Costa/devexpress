@@ -1,0 +1,1675 @@
+/* /componentes/ApoioCards.razor.rz.scp.css */
+.ApoioPage[b-487sq0v824] {
+    height: 710px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.header-line1[b-487sq0v824] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-487sq0v824] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.SetaTras[b-487sq0v824] {
+    margin-left: 332px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-487sq0v824] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+/* Container principal com 323px de padding lateral */
+.container-boxes[b-487sq0v824] {
+    width: 100%;
+    padding: 0 323px;
+    box-sizing: border-box;
+}
+
+/* Cada linha de boxes com espaçamento horizontal de 16px */
+.boxes[b-487sq0v824] {
+    display: flex;
+    gap: 16px;
+}
+
+/* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+.container-boxes .boxes:first-child[b-487sq0v824] {
+    margin-top: 60px;
+}
+
+/* Espaçamento vertical de 16px entre as demais linhas de boxes */
+.boxes + .boxes[b-487sq0v824] {
+    margin-top: 16px;
+}
+
+.box[b-487sq0v824] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.box-img[b-487sq0v824] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px;
+}
+
+.box-title[b-487sq0v824] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.box-text[b-487sq0v824] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+
+.TextosAnteriores[b-487sq0v824] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextoAtual[b-487sq0v824] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+/* /componentes/Avisos.razor.rz.scp.css */
+.aviso[b-9ewd5y8lux] {
+    height: 32px;
+    background: #0D3439;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Mantém o texto centralizado */
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto[b-9ewd5y8lux] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline white;
+}
+
+.fechar-aviso[b-9ewd5y8lux] {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 142px; /* Fixa o botão a 142px da direita */
+}
+/* /componentes/Cabecalho.razor.rz.scp.css */
+/*#region Componentes.css*/
+
+.cabecalho[b-qnwtaxpsgk] {
+    height: 72px;
+    background: #E8F2F3;
+  /*  width: 100%;*/
+    display: flex;
+    align-items: center;
+    padding: 0 130px;
+    justify-content: space-between;
+}
+
+.cabecalhoesq[b-qnwtaxpsgk] 
+{
+display: flex;
+align-items: center;
+}
+
+.logoGOT[b-qnwtaxpsgk] {
+  padding-right: 20px;
+}
+
+.byinforcavadologo[b-qnwtaxpsgk] {
+    display: flex;
+    flex-direction: column;
+}
+
+.byInforcavado[b-qnwtaxpsgk] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    color: #17585F /*var(--primary-300 )*/;
+}
+
+
+.verticket[b-qnwtaxpsgk] {
+    width: fit-content;
+    height: 40px;
+    background: #17585F;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+    margin-right: 4px;
+}
+
+
+
+    .verticket p[b-qnwtaxpsgk], .website p[b-qnwtaxpsgk] {
+        font-family: "Sora";
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+.website[b-qnwtaxpsgk] {
+    width: fit-content;
+    border: 1px solid #B2BEBE;
+    height: 40px;
+    color: var(--neutral-500);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 16px 0 16px;
+}
+
+
+/* /componentes/CardsSpace.razor.rz.scp.css */
+.card[b-95ajhaba6t] {
+    height: 555px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.cardsec[b-95ajhaba6t] {
+    display: flex; /* Adiciona o flexbox ao cardsec */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Garante que os itens sejam centralizados horizontalmente */
+}
+
+.textoinicial[b-95ajhaba6t] {
+    padding-top: 28px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    color: #12444A;
+    width: 278px;
+    height: 45px;
+    text-align: center; /* Garante que o texto fique centralizado */
+}
+
+.textosecundario[b-95ajhaba6t] {
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 400;
+    color: #414D4D;
+    width: 906px;
+    height: 50px;
+    text-align: center; /* Garante que o texto fique centralizado */
+    padding-bottom: 16px;
+}
+
+/* Container que garante 323px de distância dos limites da página */
+.container-boxes[b-95ajhaba6t] {
+    width: 100%;
+    padding: 0 323px; /* 323px à esquerda e à direita */
+    box-sizing: border-box;
+}
+
+.boxes[b-95ajhaba6t] {
+    display: flex;
+    gap: 16px; /* Espaço entre os boxes */
+    margin-top: 20px; /* Espaço entre o texto secundário e os boxes */
+}
+
+.box[b-95ajhaba6t] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o título verticalmente */
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Estilo para a imagem dentro de cada box */
+.box-img[b-95ajhaba6t] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px; /* 16px em cima, esquerda e direita; 102px embaixo */
+}
+
+/* Estilo para o título abaixo da imagem */
+.box-title[b-95ajhaba6t] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px; /* Ajuste para ficar 8px abaixo da imagem */
+    font-family: "Poppins";
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left; /* Alinha o texto à esquerda */
+    align-self: flex-start; /* Faz o título se alinhar à esquerda dentro da box */
+    padding-left: 16px; /* Mesmo espaçamento da imagem */
+    font-weight: 500;
+}
+
+
+.box-text[b-95ajhaba6t] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px; /* Garante que fique 8px abaixo do título */
+    font-family: "Sora";
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left; /* Alinha o texto à esquerda */
+    align-self: flex-start; /* Faz o título se alinhar à esquerda dentro da box */
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+/* Texto abaixo das boxes */
+.final-text[b-95ajhaba6t] {
+    width: 678px;
+    height: 13px;
+    margin-top: 28px; /* Espaço de 28px abaixo das boxes */
+    font-family: "Sora";
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    text-align: center; /* Centraliza o texto na página */
+    align-self: center; /* Garante que fique alinhado no centro caso esteja dentro de um flex container */
+}
+/* /componentes/ComercialCards.razor.rz.scp.css */
+.ApoioPage[b-aa2bt0nx8q] {
+    height: 710px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.header-line1[b-aa2bt0nx8q] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.header-line2[b-aa2bt0nx8q] {
+    display: flex;
+    align-items: flex-start; /* Alinha as bordas superiores */
+    width: 100%;
+}
+
+.SetaTras[b-aa2bt0nx8q] {
+    margin-left: 332px;
+    width: 24px;
+    height: 24px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.TituloPagina[b-aa2bt0nx8q] {
+    width: 262px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #12444A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+/* Container principal com 323px de padding lateral */
+.container-boxes[b-aa2bt0nx8q] {
+    width: 100%;
+    padding: 0 323px;
+    box-sizing: border-box;
+}
+
+/* Cada linha de boxes com espaçamento horizontal de 16px */
+.boxes[b-aa2bt0nx8q] {
+    display: flex;
+    gap: 16px;
+}
+
+/* Adiciona um espaçamento superior de 60px apenas na primeira linha de boxes */
+.container-boxes .boxes:first-child[b-aa2bt0nx8q] {
+    margin-top: 60px;
+}
+
+/* Espaçamento vertical de 16px entre as demais linhas de boxes */
+.boxes + .boxes[b-aa2bt0nx8q] {
+    margin-top: 16px;
+}
+
+.box[b-aa2bt0nx8q] {
+    width: 352px;
+    height: 245px;
+    background: #E8F2F3;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.box-img[b-aa2bt0nx8q] {
+    width: 320px;
+    height: 128px;
+    margin: 16px 16px 102px 16px;
+}
+
+.box-title[b-aa2bt0nx8q] {
+    width: 126px;
+    height: 33px;
+    margin-top: -94px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #272E2E;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.box-text[b-aa2bt0nx8q] {
+    width: 318px;
+    height: 36px;
+    margin-top: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #414D4D;
+    text-align: left;
+    align-self: flex-start;
+    padding-left: 16px;
+    font-weight: 300;
+}
+
+
+.TextosAnteriores[b-aa2bt0nx8q] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 324px;
+    white-space: nowrap;
+}
+
+
+.TextoAtual[b-aa2bt0nx8q] {
+    width: 117px;
+    height: 18px;
+    color: #272E2E;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+/* /componentes/Cookies.razor.rz.scp.css */
+.cookie[b-4crxvrvyne] {
+    height: 56px;
+    background: #D1F0EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 130px;
+}
+
+.texto-container[b-4crxvrvyne] {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.texto[b-4crxvrvyne] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D3439;
+}
+
+.sublinhado[b-4crxvrvyne] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B7C87;
+    text-decoration: underline #1B7C87;
+}
+
+.fechar-aviso[b-4crxvrvyne] {
+    position: absolute;
+    right: 130px;
+    width: 116px;
+    height: 40px;
+    top: 50%;
+    color: #3A726D;
+    transform: translateY(-50%);
+    background-color: #F0FAF9;
+    border: none;
+    border-radius: 8px;
+    font-family: "Sora";
+    font-size: 14px;
+    color: #0D3439;
+    cursor: pointer;
+}
+/* /componentes/Introdutoria.razor.rz.scp.css */
+.introdutor[b-1wgnt5i9tm] {
+    height: 296px;
+    background: #E8F2F3;
+    display: flex;
+    padding: 0 130px;
+    justify-content: space-between; 
+}
+
+.introdutorsec[b-1wgnt5i9tm] {
+    flex-direction: column;
+}
+
+.primeirotexto[b-1wgnt5i9tm] {
+    padding-top: 62px;
+    white-space: nowrap;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+.p primeirotexto[b-1wgnt5i9tm] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #6ACFC7;
+    width: 296px;
+    height: 22px;
+}
+
+
+.titulo[b-1wgnt5i9tm] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+.p titulo[b-1wgnt5i9tm] {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 56px;
+    font-weight: 500;
+    color: #12444A;
+    width: 684px;
+    height: 79px;
+    padding-bottom: 8px;
+}
+
+
+.descricao[b-1wgnt5i9tm] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+.p descricao[b-1wgnt5i9tm] {
+  /*  margin: 0;*/
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 500;
+    color: #414D4D;
+    width: 544px;
+    height: 46px;
+}
+
+
+
+.imagem[b-1wgnt5i9tm] {
+    max-width: 260px;
+    height: auto;
+    display: flex;
+    padding-right: 21px;
+}
+@code {
+
+}
+/* /componentes/NewsLetter.razor.rz.scp.css */
+.News[b-4skcnw8fot] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 282px;
+    background: #4C969E;
+    padding: 0 130px;
+}
+
+.TituloNewsLetter[b-4skcnw8fot] {
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    color: #0D0F0F;
+    width: 684px;
+    height: 79px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.Subtitulo[b-4skcnw8fot] {
+    width: 578px;
+    height: 22px;
+    color: #F2F4F4;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+/* Wrapper para posicionar o botão sobre a caixa de texto */
+.InputWrapper[b-4skcnw8fot] {
+    position: relative;
+    width: 538px;
+    height: 48px;
+}
+
+/* Caixa de texto inalterada, com padding-right para reservar espaço ao botão */
+.CaixaTexto[b-4skcnw8fot] {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    padding: 12px;
+    padding-right: 138px; 
+    font-family: "Sora";
+    font-size: 12px;
+    outline: none;
+}
+
+/* Botão posicionado 4px do topo e do fundo, e 4px além da direita do container */
+.BotaoSubscrever[b-4skcnw8fot] {
+    position: absolute;
+    top: 6px;
+    left: 545px; /* Vai 4px além da borda direita do container */
+    bottom: 6px;
+    width: 142px; /* 138px (espaço reservado) + 4px extra */
+    background: #17585F;
+    color: #fff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-family: "Sora";
+    font-size: 12px;
+    cursor: pointer;
+}
+/* /componentes/NovoTicketApoioATOMgest.razor.rz.scp.css */
+.Ticket[b-hmw1wwxff1] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-hmw1wwxff1] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-hmw1wwxff1] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-hmw1wwxff1] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-hmw1wwxff1] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-hmw1wwxff1] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-hmw1wwxff1] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-hmw1wwxff1] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-hmw1wwxff1] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketApoioFinanceiro.razor.rz.scp.css */
+.Ticket[b-pq7px4q4ck] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-pq7px4q4ck] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-pq7px4q4ck] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-pq7px4q4ck] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-pq7px4q4ck] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-pq7px4q4ck] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-pq7px4q4ck] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-pq7px4q4ck] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-pq7px4q4ck] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketApoioHeadline.razor.rz.scp.css */
+.Ticket[b-9bt7vk7yw2] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-9bt7vk7yw2] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-9bt7vk7yw2] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-9bt7vk7yw2] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-9bt7vk7yw2] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-9bt7vk7yw2] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-9bt7vk7yw2] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-9bt7vk7yw2] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-9bt7vk7yw2] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketApoioPROtextil.razor.rz.scp.css */
+.Ticket[b-n59n8ojpsa] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-n59n8ojpsa] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-n59n8ojpsa] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-n59n8ojpsa] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-n59n8ojpsa] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-n59n8ojpsa] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-n59n8ojpsa] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-n59n8ojpsa] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-n59n8ojpsa] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketComercialATOMgest.razor.rz.scp.css */
+.Ticket[b-j8bq0hec9p] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-j8bq0hec9p] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-j8bq0hec9p] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-j8bq0hec9p] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-j8bq0hec9p] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-j8bq0hec9p] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-j8bq0hec9p] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-j8bq0hec9p] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-j8bq0hec9p] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketComercialIT.razor.rz.scp.css */
+.Ticket[b-c2ugfstr35] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-c2ugfstr35] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-c2ugfstr35] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-c2ugfstr35] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-c2ugfstr35] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-c2ugfstr35] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-c2ugfstr35] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-c2ugfstr35] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-c2ugfstr35] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketComercialOutros.razor.rz.scp.css */
+.Ticket[b-84o80fribg] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-84o80fribg] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-84o80fribg] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-84o80fribg] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-84o80fribg] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-84o80fribg] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-84o80fribg] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-84o80fribg] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-84o80fribg] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/NovoTicketComercialPROtextil.razor.rz.scp.css */
+.Ticket[b-qr1w9j17ds] {
+    height: 1342px;
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    /*justify-content: center;*/ /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.CaixaTextoIncial[b-qr1w9j17ds] {
+    width: 535px;
+    height: 48px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.CaixaTextoMaior[b-qr1w9j17ds] {
+    width: 535px;
+    height: 96px;
+    border: 1px solid #D1D8D8;
+    border-radius: 8px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.Text[b-qr1w9j17ds] {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    height: 18px;
+    color: #12444A;
+    margin-bottom: 5px;
+}
+
+.botaoEnviarTicket[b-qr1w9j17ds] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 112px;
+    height: 18px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    background-color: #1B7C87; /* Cor de fundo para contraste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.UploadZone[b-qr1w9j17ds] {
+    width: 536px;
+    height: 130px;
+    border: 1px dashed #D1D8D8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .UploadZone input[type="file"][b-qr1w9j17ds] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+.botaoUpload[b-qr1w9j17ds] {
+    display: flex; /* Define o botão como container flex */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do botão */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
+    align-self: center; /* Centraliza o botão dentro do container flex do form */
+    width: 154px;
+    height: 40px;
+    font: normal normal normal 14px/18px Sora;
+    letter-spacing: 0px;
+    color: #758A8A;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+form[b-qr1w9j17ds] {
+    display: flex;
+    flex-direction: column; /* Organiza os campos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+/* /componentes/Rodape.razor.rz.scp.css */
+.footer[b-gsbglvujkg] {
+    height: 413px;
+    background: #0D3439;
+    display: flex;
+    padding: 48px;
+    justify-content: center; 
+}
+
+.footersec[b-gsbglvujkg] {
+    display: flex;             
+    flex-direction: row;
+    align-items: flex-start;  
+    justify-content: space-between; 
+    width: 100%;               
+    padding-left: 92px;       
+}
+
+.footeresq[b-gsbglvujkg] {
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px; 
+}
+
+
+.logoGOT[b-gsbglvujkg] {
+    padding-bottom: 9px;
+}
+
+.ComecaAqui[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.p ComecaAqui[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6ACFC7;
+    padding-bottom: 42px;
+}
+
+
+.PowerBy[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.p PowerBy[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logoInforcavado[b-gsbglvujkg] {
+    padding-bottom: 16px;
+}
+
+
+.Infos[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.p Infos[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora" ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.Follow[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Follow[b-gsbglvujkg] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.social-icons[b-gsbglvujkg] {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+.EstamosEm[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p EstamosEm[b-gsbglvujkg] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+.Localizacao[b-gsbglvujkg] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 156px;
+    height: 73px;
+}
+
+
+
+
+
+.Contacnos[b-gsbglvujkg] {
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+    padding-bottom: 16px;
+}
+
+
+
+
+.p Contacnos[b-gsbglvujkg] {
+    flex-direction: row;
+    margin: 0;
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    color: #A2C850;
+}
+
+
+.Contacto[b-gsbglvujkg] {
+    letter-spacing: 0px;
+    color: #F9F9FF;
+    font-family: "Poppins";
+    width: 224px;
+    height: 24px;
+}
+
+
+.icon[b-gsbglvujkg] {
+    width: 40px;
+    height: 40px;
+ margin-top: auto;
+  }

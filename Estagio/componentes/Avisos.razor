@@ -1,0 +1,46 @@
+﻿@if (AvisoVisivel)
+{
+    <header class="aviso">
+        <a href="https://inforcavado.com" class="texto" target="_blank">
+            Publicidade ou avisos importantes para cliente
+        </a>
+        <span class="material-symbols-outlined fechar-aviso" @onclick="Desaparece">close</span>
+    </header>
+}
+
+<!-- Adiciona a fonte do Google Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+<style>
+    .aviso {
+        height: 32px;
+        background: #0D3439;
+        display: flex;
+        align-items: center;
+        padding: 0 130px;
+        justify-content: space-between;
+    }
+
+    .texto {
+        font-family: "Poppins";
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: underline white;
+    }
+
+    .fechar-aviso {
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+    }
+</style>
+
+@code {
+    private bool AvisoVisivel = true; 
+
+    private void Desaparece()
+    {
+        AvisoVisivel = false; 
+    }
+}
