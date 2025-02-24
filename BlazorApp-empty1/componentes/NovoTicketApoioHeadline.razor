@@ -1,0 +1,64 @@
+﻿<header class="Ticket">
+    <div class="header-line1">
+        <a href="/" style="text-decoration:none">
+            <p class="TextosAnteriores">
+                Inicio >
+            </p>
+        </a>
+
+        <a href="/Apoio" style="text-decoration:none">
+            <p class="TextosAnteriores2">
+                Apoio >
+            </p>
+        </a>
+        <p class="TextoAtual">
+            Headline
+        </p>
+
+    </div>
+
+    <div class="header-line2">
+        <a href="/Apoio">
+            <div class="SetaTras">
+                <span class="material-symbols-outlined">
+                    arrow_back
+                </span>
+            </div>
+        </a>
+        <div class="TituloPagina">
+            Headline
+        </div>
+    </div>
+
+    <form asp-action="Enviar" method="post" enctype="multipart/form-data">
+        <!-- Campos existentes do formulário -->
+        <label class="Text" asp-for="Nome">Nome:</label>
+        <input asp-for="Nome" class="CaixaTextoIncial" placeholder="Introduza o seu nome" />
+
+        <label class="Text" asp-for="Empresa">Empresa:</label>
+        <input asp-for="Empresa" class="CaixaTextoIncial" placeholder="Introduza o nome da sua empresa" />
+
+        <label class="Text" asp-for="Email">Email:</label>
+        <input asp-for="Email" type="email" class="CaixaTextoIncial" placeholder="Introduza oseu email" />
+
+        <label class="Text" asp-for="Telefone">Telefone:</label>
+        <input asp-for="Telefone" type="tel" class="CaixaTextoIncial" placeholder="Introduza o seu telefone" />
+
+        <label class="Text" asp-for="Assunto">Assunto:</label>
+        <input asp-for="Assunto" class="CaixaTextoIncial" placeholder="Introduza  o assunto" />
+
+        <label class="Text" asp-for="Mensagem">Mensagem:</label>
+        <textarea asp-for="Mensagem" class="CaixaTextoMaior" placeholder="Introduza a sua mensagem"></textarea>
+
+        <div class="UploadZone">
+            <input type="file" id="Ficheiro" name="Ficheiro" />
+            <label for="Ficheiro" class="botaoUpload">Colar Ficheiro</label>
+        </div>
+
+        <!-- Botão de Envio -->
+        <button type="submit" class="botaoEnviarTicket">Criar Ticket</button>
+    </form>
+</header>
+@code {
+
+}

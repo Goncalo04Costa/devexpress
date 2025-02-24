@@ -1,0 +1,36 @@
+﻿@using Blazored.SessionStorage
+@inject ISessionStorageService SessionStorage
+
+@if (CookieVisivel)
+{
+    <header class="cookie">
+        <div class="texto-container">
+            <span class="texto">
+                Utilizamos cookies para melhorar a sua experiência. Ao continuar, concorda com a utilização de cookies.
+            </span>
+            <a href="https://inforcavado.com" class="sublinhado" target="_blank">
+                Saiba mais
+            </a>
+        </div>
+        <button class="fechar-aviso" @onclick="Desaparece">Ok, entendi</button>
+    </header>
+}
+
+@code {
+    private bool CookieVisivel = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var accepted = await SessionStorage.GetItemAsync<string>("cookiesAccepted");
+        if (accepted == "true")
+        {
+            CookieVisivel = false;
+        }
+    }
+
+    private async Task Desaparece()
+    {
+        CookieVisivel = false;
+        await SessionStorage.SetItemAsync("cookiesAccepted", "true");
+    }
+}
