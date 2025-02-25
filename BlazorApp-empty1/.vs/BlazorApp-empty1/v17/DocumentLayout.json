@@ -3,16 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoiofinanceiro.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoiofinanceiro.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioheadline.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioheadline.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\comercialcards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\comercialcards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\apoiocards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\apoiocards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\sucessoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\sucessoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\avisos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\avisos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\apoiocards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\apoiocards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\cookies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,116 +87,96 @@
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\introdutoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\newsletter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\newsletter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\sucessoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\sucessoticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\comercialcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\comercialcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\cookies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\cookies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioheadline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioheadline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialeitrazor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialeitrazor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\newsletter.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\newsletter.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\newsletter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\newsletter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\comercialcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\comercialcards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialoutros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketcomercialeitrazor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\ticketcomercialeitrazor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\sucesso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\sucesso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialprotextil.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\apoiocards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\apoiocards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioheadline.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioheadline.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoiofinanceiro.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoiofinanceiro.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioatomgest.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoiofinanceiro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoioheadline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketapoioheadline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\apoiocards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\apoiocards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketapoioprotextil.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -151,20 +195,8 @@
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\cardsspace.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\comercialcards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\comercialcards.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\avisos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\avisos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\introdutoria.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\introdutoria.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\ticketapoioheadline.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -181,18 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialprotextil.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialprotextil.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialoutros.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialoutros.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialit.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialit.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketcomercialatomgest.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\novoticketcomercialatomgest.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\novoticketapoiofinanceiro.razor.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -215,28 +235,12 @@
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:pages\\apoio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\cabecalho.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\cabecalho.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\newsletter.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\newsletter.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\cardsspace.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\cardsspace.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\componentes\\cookies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:componentes\\cookies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\pages\\comercial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -249,10 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Component.razor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:componentes\\Component.razor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|c:\\users\\gonca\\onedrive\\ambiente de trabalho\\blazorapp-empty1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B982C76-DB5A-48E1-914C-FAA54895B703}|BlazorApp-empty1.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -262,7 +262,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -273,109 +273,259 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicketService.cs",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Services\\TicketService.cs",
-              "RelativeDocumentMoniker": "Services\\TicketService.cs",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Services\\TicketService.cs",
-              "RelativeToolTip": "Services\\TicketService.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAkwGAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T17:58:22.439Z",
+              "DocumentIndex": 3,
+              "Title": "NovoTicketComercialPROtextil.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialPROtextil.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialPROtextil.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-24T14:50:24.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NovoTicketComercialATOMgest.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:40:15.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Classes\\Ticket.cs",
-              "RelativeDocumentMoniker": "Classes\\Ticket.cs",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Classes\\Ticket.cs",
-              "RelativeToolTip": "Classes\\Ticket.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T17:57:45.689Z",
+              "Title": "NovoTicketComercialIT.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCgAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:36:22.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cookies.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor",
-              "RelativeDocumentMoniker": "componentes\\Cookies.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor",
-              "RelativeToolTip": "componentes\\Cookies.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
+              "DocumentIndex": 0,
+              "Title": "NovoTicketApoioFinanceiro.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioFinanceiro.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor",
+              "RelativeToolTip": "componentes\\NovoTicketApoioFinanceiro.razor",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T16:43:57.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\App.razor",
-              "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\App.razor",
-              "RelativeToolTip": "App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:12:16.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:32:42.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\_Imports.razor",
-              "RelativeDocumentMoniker": "_Imports.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\_Imports.razor",
-              "RelativeToolTip": "_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:50:40.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NovoTicketComercialOutros.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor",
-              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor",
-              "ViewState": "AQIAABsAAAAAAAAAAIBJwCEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:38:07.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NewsLetter.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor",
-              "RelativeDocumentMoniker": "componentes\\NewsLetter.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor",
-              "RelativeToolTip": "componentes\\NewsLetter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T16:57:39.225Z",
+              "WhenOpened": "2025-02-24T11:35:45.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NovoTicketComercialOutros.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:36:18.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NovoTicketApoioFinanceiro.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioFinanceiro.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketApoioFinanceiro.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-24T11:36:44.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NovoTicketApoioHeadline.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioHeadline.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketApoioHeadline.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-24T11:36:54.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NovoTicketApoioPROtextil.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioPROtextil.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketApoioPROtextil.razor.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-22T23:57:33.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NovoTicketApoioATOMgest.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioATOMgest.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketApoioATOMgest.razor.css",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-24T11:34:05.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComercialCards.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor.css",
+              "RelativeDocumentMoniker": "componentes\\ComercialCards.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor.css",
+              "RelativeToolTip": "componentes\\ComercialCards.razor.css",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAIIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-22T23:54:26.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApoioCards.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor.css",
+              "RelativeDocumentMoniker": "componentes\\ApoioCards.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor.css",
+              "RelativeToolTip": "componentes\\ApoioCards.razor.css",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAH8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-22T23:53:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NovoTicketComercialIT.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor",
+              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:37:54.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NovoTicketComercialOutros.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor",
+              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:38:07.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NovoTicketComercialPROtextil.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialPROtextil.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor",
+              "RelativeToolTip": "componentes\\NovoTicketComercialPROtextil.razor",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:37:42.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NovoTicketComercialATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor",
+              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:37:28.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApoioCards.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor",
+              "RelativeDocumentMoniker": "componentes\\ApoioCards.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor",
+              "RelativeToolTip": "componentes\\ApoioCards.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:37:41.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-20T17:22:46.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SucessoTicket.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\SucessoTicket.razor",
+              "RelativeDocumentMoniker": "componentes\\SucessoTicket.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\SucessoTicket.razor",
+              "RelativeToolTip": "componentes\\SucessoTicket.razor",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAG0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T00:36:47.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Avisos.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Avisos.razor",
+              "RelativeDocumentMoniker": "componentes\\Avisos.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Avisos.razor",
+              "RelativeToolTip": "componentes\\Avisos.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T12:57:08.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Introdutoria.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Introdutoria.razor",
               "RelativeDocumentMoniker": "componentes\\Introdutoria.razor",
@@ -388,379 +538,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NovoTicketComercialOutros.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor.css",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAgwKUAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "Cookies.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor",
+              "RelativeDocumentMoniker": "componentes\\Cookies.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor",
+              "RelativeToolTip": "componentes\\Cookies.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T16:43:57.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cookies.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor.css",
+              "RelativeDocumentMoniker": "componentes\\Cookies.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor.css",
+              "RelativeToolTip": "componentes\\Cookies.razor.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:50:24.279Z"
+              "WhenOpened": "2025-02-20T16:52:48.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\libman.json",
-              "RelativeDocumentMoniker": "libman.json",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\libman.json",
-              "RelativeToolTip": "libman.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T17:41:16.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SucessoTicket.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\SucessoTicket.razor",
-              "RelativeDocumentMoniker": "componentes\\SucessoTicket.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\SucessoTicket.razor",
-              "RelativeToolTip": "componentes\\SucessoTicket.razor",
-              "ViewState": "AQIAAF0AAAAAAAAAAIBJwG0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T00:36:47.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ComercialCards.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor",
-              "RelativeDocumentMoniker": "componentes\\ComercialCards.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor",
-              "RelativeToolTip": "componentes\\ComercialCards.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAIBJwDoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:55:03.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TicketComercialPROtextil.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialPROtextil.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketComercialPROtextil.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialPROtextil.razor",
-              "RelativeToolTip": "Pages\\TicketComercialPROtextil.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:57:25.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TicketComercialOutros.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialOutros.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketComercialOutros.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialOutros.razor",
-              "RelativeToolTip": "Pages\\TicketComercialOutros.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T17:03:47.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NovoTicketComercialIT.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor",
-              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAqwEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:37:54.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NovoTicketComercialIT.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor.css",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAgwKUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:49:48.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "NovoTicketApoioPROtextil.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor",
               "RelativeDocumentMoniker": "componentes\\NovoTicketApoioPROtextil.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor",
               "RelativeToolTip": "componentes\\NovoTicketApoioPROtextil.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAqwEUAAAAAAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwGUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T23:55:59.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NovoTicketApoioATOMgest.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioATOMgest.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
-              "RelativeToolTip": "componentes\\NovoTicketApoioATOMgest.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:33:14.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "NovoTicketApoioPROtextil.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioPROtextil.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioPROtextil.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketApoioPROtextil.razor.css",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAuwKUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-22T23:57:33.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NovoTicketComercialATOMgest.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor.css",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAgwKUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:40:44.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TicketComercialeITrazor.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialeITrazor.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketComercialeITrazor.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialeITrazor.razor",
-              "RelativeToolTip": "Pages\\TicketComercialeITrazor.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T16:54:25.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TicketComercialATOMgest.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialATOMgest.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketComercialATOMgest.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialATOMgest.razor",
-              "RelativeToolTip": "Pages\\TicketComercialATOMgest.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:57:11.169Z"
+              "WhenOpened": "2025-02-22T23:55:59.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "NovoTicketComercialATOMgest.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor",
-              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:37:28.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Sucesso.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Sucesso.razor",
-              "RelativeDocumentMoniker": "Pages\\Sucesso.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Sucesso.razor",
-              "RelativeToolTip": "Pages\\Sucesso.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:11:20.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NovoTicketComercialPROtextil.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialPROtextil.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialPROtextil.razor.css",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAmwHYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T14:50:24.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "NovoTicketComercialPROtextil.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialPROtextil.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor",
-              "RelativeToolTip": "componentes\\NovoTicketComercialPROtextil.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:37:42.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApoioCards.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor",
-              "RelativeDocumentMoniker": "componentes\\ApoioCards.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor",
-              "RelativeToolTip": "componentes\\ApoioCards.razor",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwEEAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:37:41.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "NovoTicketApoioHeadline.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioHeadline.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketApoioHeadline.razor.css",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAgwKMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:36:54.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "NovoTicketApoioFinanceiro.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioFinanceiro.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketApoioFinanceiro.razor.css",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAgwKMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:36:44.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "NovoTicketApoioATOMgest.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioATOMgest.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketApoioATOMgest.razor.css",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAgwI8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:34:05.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "NovoTicketApoioFinanceiro.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioFinanceiro.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor",
-              "RelativeToolTip": "componentes\\NovoTicketApoioFinanceiro.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:35:45.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
               "Title": "NovoTicketApoioHeadline.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor",
               "RelativeDocumentMoniker": "componentes\\NovoTicketApoioHeadline.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor",
               "RelativeToolTip": "componentes\\NovoTicketApoioHeadline.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAqwGYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:35:08.404Z"
+              "WhenOpened": "2025-02-24T11:35:08.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ApoioCards.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor.css",
-              "RelativeDocumentMoniker": "componentes\\ApoioCards.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ApoioCards.razor.css",
-              "RelativeToolTip": "componentes\\ApoioCards.razor.css",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAQwH8AAAARAAAA",
+              "DocumentIndex": 24,
+              "Title": "NovoTicketApoioATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketApoioATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor",
+              "RelativeToolTip": "componentes\\NovoTicketApoioATOMgest.razor",
+              "ViewState": "AQIAADIAAAAAAAAAAAAqwGUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:33:14.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-22T23:53:27.718Z"
+              "WhenOpened": "2025-02-24T11:03:13.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "TicketApoioFinanceiro.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioFinanceiro.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketApoioFinanceiro.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioFinanceiro.razor",
-              "RelativeToolTip": "Pages\\TicketApoioFinanceiro.razor",
+              "DocumentIndex": 26,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:50:40.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\App.razor",
+              "RelativeToolTip": "App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:55:16.74Z"
+              "WhenOpened": "2025-02-24T11:12:16.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "TicketApoioPROtextil.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioPROtextil.razor",
-              "RelativeDocumentMoniker": "Pages\\TicketApoioPROtextil.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioPROtextil.razor",
-              "RelativeToolTip": "Pages\\TicketApoioPROtextil.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:51:51.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Rodape.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Rodape.razor",
-              "RelativeDocumentMoniker": "componentes\\Rodape.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Rodape.razor",
-              "RelativeToolTip": "componentes\\Rodape.razor",
-              "ViewState": "AQIAABAAAAAAAAAAAAAowDAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:17:03.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CardsSpace.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor",
-              "RelativeDocumentMoniker": "componentes\\CardsSpace.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor",
-              "RelativeToolTip": "componentes\\CardsSpace.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:23:34.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ComercialCards.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor.css",
-              "RelativeDocumentMoniker": "componentes\\ComercialCards.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor.css",
-              "RelativeToolTip": "componentes\\ComercialCards.razor.css",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAmwIYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-22T23:54:26.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Avisos.razor",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Avisos.razor",
-              "RelativeDocumentMoniker": "componentes\\Avisos.razor",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Avisos.razor",
-              "RelativeToolTip": "componentes\\Avisos.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowBoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T12:57:08.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 28,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\MainLayout.razor",
               "RelativeDocumentMoniker": "MainLayout.razor",
@@ -768,11 +650,256 @@
               "RelativeToolTip": "MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:12:16.418Z"
+              "WhenOpened": "2025-02-24T11:12:16.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T11:32:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NovoTicketComercialATOMgest.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:38:09.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NovoTicketComercialIT.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:36:10.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NovoTicketComercialOutros.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
+              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T12:34:55.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TicketComercialPROtextil.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialPROtextil.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketComercialPROtextil.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialPROtextil.razor",
+              "RelativeToolTip": "Pages\\TicketComercialPROtextil.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:57:25.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TicketComercialATOMgest.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialATOMgest.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketComercialATOMgest.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialATOMgest.razor",
+              "RelativeToolTip": "Pages\\TicketComercialATOMgest.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:57:11.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NewsLetter.razor.css",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor.css",
+              "RelativeDocumentMoniker": "componentes\\NewsLetter.razor.css",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor.css",
+              "RelativeToolTip": "componentes\\NewsLetter.razor.css",
+              "ViewState": "AQIAABgAAAAAAAAAAIBZwDoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-20T15:38:47.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Services\\TicketService.cs",
+              "RelativeToolTip": "Services\\TicketService.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAcwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:58:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Classes\\Ticket.cs",
+              "RelativeDocumentMoniker": "Classes\\Ticket.cs",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Classes\\Ticket.cs",
+              "RelativeToolTip": "Classes\\Ticket.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAxwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:57:45.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T17:41:16.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
+              "Title": "NewsLetter.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor",
+              "RelativeDocumentMoniker": "componentes\\NewsLetter.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor",
+              "RelativeToolTip": "componentes\\NewsLetter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T16:57:39.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ComercialCards.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor",
+              "RelativeDocumentMoniker": "componentes\\ComercialCards.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\ComercialCards.razor",
+              "RelativeToolTip": "componentes\\ComercialCards.razor",
+              "ViewState": "AQIAABUAAAAAAAAAACBzwDoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:55:03.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TicketComercialOutros.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialOutros.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketComercialOutros.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialOutros.razor",
+              "RelativeToolTip": "Pages\\TicketComercialOutros.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T17:03:47.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TicketComercialeITrazor.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialeITrazor.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketComercialeITrazor.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketComercialeITrazor.razor",
+              "RelativeToolTip": "Pages\\TicketComercialeITrazor.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T16:54:25.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Sucesso.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Sucesso.razor",
+              "RelativeDocumentMoniker": "Pages\\Sucesso.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Sucesso.razor",
+              "RelativeToolTip": "Pages\\Sucesso.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:11:20.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TicketApoioFinanceiro.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioFinanceiro.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketApoioFinanceiro.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioFinanceiro.razor",
+              "RelativeToolTip": "Pages\\TicketApoioFinanceiro.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:55:16.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TicketApoioPROtextil.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioPROtextil.razor",
+              "RelativeDocumentMoniker": "Pages\\TicketApoioPROtextil.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioPROtextil.razor",
+              "RelativeToolTip": "Pages\\TicketApoioPROtextil.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T11:51:51.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Rodape.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Rodape.razor",
+              "RelativeDocumentMoniker": "componentes\\Rodape.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Rodape.razor",
+              "RelativeToolTip": "componentes\\Rodape.razor",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowDAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:17:03.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CardsSpace.razor",
+              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor",
+              "RelativeDocumentMoniker": "componentes\\CardsSpace.razor",
+              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor",
+              "RelativeToolTip": "componentes\\CardsSpace.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T17:23:34.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "Introdutoria.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Introdutoria.razor.css",
               "RelativeDocumentMoniker": "componentes\\Introdutoria.razor.css",
@@ -780,11 +907,12 @@
               "RelativeToolTip": "componentes\\Introdutoria.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T12:18:20.14Z"
+              "WhenOpened": "2025-02-24T12:18:20.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "TicketApoioHeadline.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioHeadline.razor",
               "RelativeDocumentMoniker": "Pages\\TicketApoioHeadline.razor",
@@ -792,11 +920,12 @@
               "RelativeToolTip": "Pages\\TicketApoioHeadline.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:55:59.991Z"
+              "WhenOpened": "2025-02-24T11:55:59.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "TicketApoioATOMgest.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\TicketApoioATOMgest.razor",
               "RelativeDocumentMoniker": "Pages\\TicketApoioATOMgest.razor",
@@ -804,11 +933,12 @@
               "RelativeToolTip": "Pages\\TicketApoioATOMgest.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T11:54:16.028Z"
+              "WhenOpened": "2025-02-24T11:54:16.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Pages\\Index.razor",
@@ -816,11 +946,12 @@
               "RelativeToolTip": "Pages\\Index.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T15:20:03.294Z"
+              "WhenOpened": "2025-02-19T15:20:03.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "NovoTicketComercialPROtextil.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialPROtextil.razor.css",
               "RelativeDocumentMoniker": "componentes\\NovoTicketComercialPROtextil.razor.css",
@@ -832,43 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "NovoTicketComercialOutros.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialOutros.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialOutros.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialOutros.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:50:13.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "NovoTicketComercialIT.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialIT.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialIT.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialIT.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:49:38.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "NovoTicketComercialATOMgest.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NovoTicketComercialATOMgest.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketComercialATOMgest.razor.css",
-              "RelativeToolTip": "componentes\\NovoTicketComercialATOMgest.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:40:23.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "NovoTicketApoioFinanceiro.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioFinanceiro.razor.css",
               "RelativeDocumentMoniker": "componentes\\NovoTicketApoioFinanceiro.razor.css",
@@ -880,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "NovoTicketApoioHeadline.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioHeadline.razor.css",
               "RelativeDocumentMoniker": "componentes\\NovoTicketApoioHeadline.razor.css",
@@ -892,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "NovoTicketApoioATOMgest.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NovoTicketApoioATOMgest.razor.css",
               "RelativeDocumentMoniker": "componentes\\NovoTicketApoioATOMgest.razor.css",
@@ -904,19 +999,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "Cabecalho.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cabecalho.razor",
               "RelativeDocumentMoniker": "componentes\\Cabecalho.razor",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cabecalho.razor",
               "RelativeToolTip": "componentes\\Cabecalho.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAIBZwDoAAAAFAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAACBzwDoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:15:20.69Z"
+              "WhenOpened": "2025-02-20T17:15:20.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "Apoio.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Apoio.razor",
               "RelativeDocumentMoniker": "Pages\\Apoio.razor",
@@ -924,83 +1020,38 @@
               "RelativeToolTip": "Pages\\Apoio.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:14:10.904Z"
+              "WhenOpened": "2025-02-20T17:14:10.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\index.html",
-              "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-20T17:22:46.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-24T11:03:13.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "Cabecalho.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cabecalho.razor.css",
               "RelativeDocumentMoniker": "componentes\\Cabecalho.razor.css",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cabecalho.razor.css",
               "RelativeToolTip": "componentes\\Cabecalho.razor.css",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBZwB0AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAOBvwB0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T12:55:41.888Z"
+              "WhenOpened": "2025-02-20T12:55:41.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "NewsLetter.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor.css",
-              "RelativeDocumentMoniker": "componentes\\NewsLetter.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\NewsLetter.razor.css",
-              "RelativeToolTip": "componentes\\NewsLetter.razor.css",
-              "ViewState": "AQIAAAYAAAAAAAAAACBjwCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T15:38:47.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "CardsSpace.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor.css",
               "RelativeDocumentMoniker": "componentes\\CardsSpace.razor.css",
               "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\CardsSpace.razor.css",
               "RelativeToolTip": "componentes\\CardsSpace.razor.css",
-              "ViewState": "AQIAADAAAAAAAAAAACBjwEIAAAABAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAFB2wEIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T17:25:53.257Z"
+              "WhenOpened": "2025-02-20T17:25:53.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Cookies.razor.css",
-              "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor.css",
-              "RelativeDocumentMoniker": "componentes\\Cookies.razor.css",
-              "ToolTip": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor.css",
-              "RelativeToolTip": "componentes\\Cookies.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T16:52:48.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Comercial.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\Pages\\Comercial.razor",
               "RelativeDocumentMoniker": "Pages\\Comercial.razor",
@@ -1008,11 +1059,12 @@
               "RelativeToolTip": "Pages\\Comercial.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T17:14:18.971Z"
+              "WhenOpened": "2025-02-20T17:14:18.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Cookies.razor.css",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Cookies.razor.css",
               "RelativeDocumentMoniker": "componentes\\Cookies.razor.css",
@@ -1024,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Component.razor.razor",
               "DocumentMoniker": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\componentes\\Component.razor.razor",
               "RelativeDocumentMoniker": "componentes\\Component.razor.razor",
@@ -1032,7 +1084,8 @@
               "RelativeToolTip": "componentes\\Component.razor.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T12:48:34.932Z"
+              "WhenOpened": "2025-02-20T12:48:34.932Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -41,7 +41,8 @@
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -162,3 +163,62 @@ form[b-pq7px4q4ck] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-pq7px4q4ck] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-pq7px4q4ck] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-pq7px4q4ck] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-pq7px4q4ck] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-pq7px4q4ck]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-pq7px4q4ck]::after {
+        display: block;
+    }

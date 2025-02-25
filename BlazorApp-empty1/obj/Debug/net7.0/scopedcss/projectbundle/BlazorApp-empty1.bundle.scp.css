@@ -625,8 +625,8 @@ align-items: center;
 .News[b-4skcnw8fot] {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Centraliza horizontalmente todos os filhos */
+    justify-content: center; /* Centraliza verticalmente */
     height: 282px;
     background: #4C969E;
     padding: 0 130px;
@@ -640,7 +640,7 @@ align-items: center;
     color: #0D0F0F;
     width: 684px;
     height: 79px;
-    text-align: center;
+    text-align: center; /* Texto centralizado */
     padding-bottom: 16px;
 }
 
@@ -651,44 +651,40 @@ align-items: center;
     font-family: "Sora";
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+    text-align: center; /* Texto centralizado */
     padding-bottom: 32px;
 }
 
-/* Wrapper para posicionar o botão sobre a caixa de texto */
+/* Container da caixa de e-mail centralizada */
 .InputWrapper[b-4skcnw8fot] {
     position: relative;
     width: 538px;
     height: 48px;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
 }
 
-/* Caixa de texto inalterada, com padding-right para reservar espaço ao botão */
-.CaixaTexto[b-4skcnw8fot] {
-    width: 100%;
-    height: 100%;
+.caixaDETexto[b-4skcnw8fot] {
+    width: 538px;
+    height: 48px;
+    background: #FFFFFF;
     border: 1px solid #D1D8D8;
     border-radius: 8px;
-    padding: 12px;
-    padding-right: 138px; 
-    font-family: "Sora";
-    font-size: 12px;
-    outline: none;
+    opacity: 1;
 }
-
-/* Botão posicionado 4px do topo e do fundo, e 4px além da direita do container */
+/* Botão posicionado dentro da caixa, a 4px da direita */
 .BotaoSubscrever[b-4skcnw8fot] {
     position: absolute;
-    top: 6px;
-    left: 545px; /* Vai 4px além da borda direita do container */
-    bottom: 6px;
-    width: 142px; /* 138px (espaço reservado) + 4px extra */
-    background: #17585F;
-    color: #fff;
+    top: 4px; 
+    left: calc(100% - 113px - 4px); 
+    bottom: 4px;
+    width: 113px;
+    height: 40px;
+    background: #1B7C87;
     border: none;
-    border-radius: 0 8px 8px 0;
-    font-family: "Sora";
-    font-size: 12px;
+    border-radius: 8px;
+    color: #fff;
     cursor: pointer;
+    opacity: 1;
 }
 /* /componentes/NovoTicketApoioATOMgest.razor.rz.scp.css */
 .Ticket[b-hmw1wwxff1] {
@@ -734,7 +730,8 @@ align-items: center;
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -855,6 +852,65 @@ form[b-hmw1wwxff1] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-hmw1wwxff1] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-hmw1wwxff1] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-hmw1wwxff1] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-hmw1wwxff1] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-hmw1wwxff1]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-hmw1wwxff1]::after {
+        display: block;
+    }
 /* /componentes/NovoTicketApoioFinanceiro.razor.rz.scp.css */
 .Ticket[b-pq7px4q4ck] {
     height: 1342px;
@@ -899,7 +955,8 @@ form[b-hmw1wwxff1] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1020,6 +1077,65 @@ form[b-pq7px4q4ck] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-pq7px4q4ck] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-pq7px4q4ck] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-pq7px4q4ck] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-pq7px4q4ck] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-pq7px4q4ck]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-pq7px4q4ck]::after {
+        display: block;
+    }
 /* /componentes/NovoTicketApoioHeadline.razor.rz.scp.css */
 .Ticket[b-9bt7vk7yw2] {
     height: 1342px;
@@ -1064,7 +1180,8 @@ form[b-pq7px4q4ck] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1185,6 +1302,65 @@ form[b-9bt7vk7yw2] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-9bt7vk7yw2] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-9bt7vk7yw2] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-9bt7vk7yw2] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-9bt7vk7yw2] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-9bt7vk7yw2]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-9bt7vk7yw2]::after {
+        display: block;
+    }
 /* /componentes/NovoTicketApoioPROtextil.razor.rz.scp.css */
 .Ticket[b-n59n8ojpsa] {
     height: 1342px;
@@ -1229,7 +1405,8 @@ form[b-9bt7vk7yw2] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1284,7 +1461,6 @@ form[b-n59n8ojpsa] {
     flex-direction: column; /* Organiza os campos verticalmente */
     align-items: flex-start; /* Alinha os itens à esquerda */
 }
-
 
 
 .TextosAnteriores[b-n59n8ojpsa] {
@@ -1351,6 +1527,65 @@ form[b-n59n8ojpsa] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-n59n8ojpsa] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-n59n8ojpsa] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-n59n8ojpsa] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-n59n8ojpsa] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-n59n8ojpsa]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-n59n8ojpsa]::after {
+        display: block;
+    }
 /* /componentes/NovoTicketComercialATOMgest.razor.rz.scp.css */
 .Ticket[b-j8bq0hec9p] {
     height: 1342px;
@@ -1395,7 +1630,8 @@ form[b-n59n8ojpsa] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1452,7 +1688,6 @@ form[b-j8bq0hec9p] {
 }
 
 
-
 .TextosAnteriores[b-j8bq0hec9p] {
     width: 55px;
     height: 18px;
@@ -1481,7 +1716,7 @@ form[b-j8bq0hec9p] {
     opacity: 1;
     font-family: "Sora", sans-serif;
     white-space: nowrap;
-    margin-left: 10px;
+    margin-left: 48px;
 }
 
 .header-line1[b-j8bq0hec9p] {
@@ -1517,6 +1752,104 @@ form[b-j8bq0hec9p] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-j8bq0hec9p] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-j8bq0hec9p] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-j8bq0hec9p] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-j8bq0hec9p] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-j8bq0hec9p]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-j8bq0hec9p]::after {
+        display: block;
+    }
+
+
+
+.UploadedFiles[b-j8bq0hec9p] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-j8bq0hec9p] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-j8bq0hec9p] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-j8bq0hec9p] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-j8bq0hec9p] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
 /* /componentes/NovoTicketComercialIT.razor.rz.scp.css */
 .Ticket[b-c2ugfstr35] {
     height: 1342px;
@@ -1561,7 +1894,8 @@ form[b-j8bq0hec9p] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1616,7 +1950,6 @@ form[b-c2ugfstr35] {
     flex-direction: column; /* Organiza os campos verticalmente */
     align-items: flex-start; /* Alinha os itens à esquerda */
 }
-
 
 
 .TextosAnteriores[b-c2ugfstr35] {
@@ -1683,6 +2016,104 @@ form[b-c2ugfstr35] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-c2ugfstr35] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-c2ugfstr35] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-c2ugfstr35] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-c2ugfstr35] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-c2ugfstr35]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-c2ugfstr35]::after {
+        display: block;
+    }
+
+
+
+.UploadedFiles[b-c2ugfstr35] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-c2ugfstr35] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-c2ugfstr35] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-c2ugfstr35] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-c2ugfstr35] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
 /* /componentes/NovoTicketComercialOutros.razor.rz.scp.css */
 .Ticket[b-84o80fribg] {
     height: 1342px;
@@ -1727,7 +2158,8 @@ form[b-c2ugfstr35] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1782,7 +2214,6 @@ form[b-84o80fribg] {
     flex-direction: column; /* Organiza os campos verticalmente */
     align-items: flex-start; /* Alinha os itens à esquerda */
 }
-
 
 
 .TextosAnteriores[b-84o80fribg] {
@@ -1849,6 +2280,103 @@ form[b-84o80fribg] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-84o80fribg] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-84o80fribg] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-84o80fribg] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-84o80fribg] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-84o80fribg]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-84o80fribg]::after {
+        display: block;
+    }
+
+
+.UploadedFiles[b-84o80fribg] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-84o80fribg] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-84o80fribg] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-84o80fribg] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-84o80fribg] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
 /* /componentes/NovoTicketComercialPROtextil.razor.rz.scp.css */
 .Ticket[b-qr1w9j17ds] {
     height: 1342px;
@@ -1893,7 +2421,8 @@ form[b-84o80fribg] {
     align-items: center; /* Centraliza verticalmente o conteúdo do botão */
     align-self: center; /* Centraliza o botão dentro do container flex do form */
     width: 112px;
-    height: 18px;
+    height: 40px;
+    margin-top: 30px;
     font: normal normal normal 14px/18px Sora;
     letter-spacing: 0px;
     color: #F9F9F9;
@@ -1961,6 +2490,16 @@ form[b-qr1w9j17ds] {
 }
 
 
+.TextosAnteriores2[b-qr1w9j17ds] {
+    width: 55px;
+    height: 18px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Sora", sans-serif;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
 .TextoAtual[b-qr1w9j17ds] {
     width: 117px;
     height: 18px;
@@ -1968,9 +2507,8 @@ form[b-qr1w9j17ds] {
     opacity: 1;
     font-family: "Sora", sans-serif;
     white-space: nowrap;
-    margin-left: 108px;
+    margin-left: 48px;
 }
-
 
 .header-line1[b-qr1w9j17ds] {
     display: flex;
@@ -1980,12 +2518,12 @@ form[b-qr1w9j17ds] {
 
 .header-line2[b-qr1w9j17ds] {
     display: flex;
-    align-items: flex-start; /* Alinha as bordas superiores */
+    align-items: flex-start;
     width: 100%;
 }
 
 .SetaTras[b-qr1w9j17ds] {
-    margin-left: 332px;
+    margin-left: 482px;
     width: 24px;
     height: 24px;
     color: grey;
@@ -2005,6 +2543,104 @@ form[b-qr1w9j17ds] {
     margin-left: 8px;
     font-weight: 600;
 }
+
+.TextoDeInformacao[b-qr1w9j17ds] {
+    margin-top: 8px;
+    width: 536px;
+    height: 27px;
+    letter-spacing: 0px;
+    color: #758A8A;
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.TextoCheck1[b-qr1w9j17ds] {
+    width: 288px;
+    height: 13px;
+    font-family: "Sora";
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+
+.TextoCheck2[b-qr1w9j17ds] {
+    width: 159px;
+    height: 13px;
+    text-align: left;
+    font-family: "Sora";
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #414D4D;
+    opacity: 1;
+}
+
+.Checkmark[b-qr1w9j17ds] {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1B7C87; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+    .Checkmark[b-qr1w9j17ds]::after {
+        content: "✔"; /* Símbolo de check */
+        font-size: 16px;
+        color: #1B7C87; /* Cor do check */
+        display: none;
+    }
+
+    .Checkmark.checked[b-qr1w9j17ds]::after {
+        display: block;
+    }
+
+
+
+.UploadedFiles[b-qr1w9j17ds] {
+    margin-top: 10px;
+    width: 536px;
+}
+
+    .UploadedFiles ul[b-qr1w9j17ds] {
+        list-style: none;
+        padding: 0;
+    }
+
+    .UploadedFiles li[b-qr1w9j17ds] {
+        display: flex;
+        align-items: center; /* Garante alinhamento vertical */
+        justify-content: flex-start; /* Mantém espaçamento entre nome e ícone */
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        color: #414D4D;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+.RemoveFile[b-qr1w9j17ds] {
+    color: #ccc; /* Cinza */
+    cursor: pointer;
+    font-size: 24px; /* Garante que o ícone fique do tamanho certo */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .RemoveFile:hover[b-qr1w9j17ds] {
+        color: #a0a0a0; /* Cinza mais escuro ao passar o mouse */
+    }
 /* /componentes/Rodape.razor.rz.scp.css */
 .footer[b-gsbglvujkg] {
     height: 413px;

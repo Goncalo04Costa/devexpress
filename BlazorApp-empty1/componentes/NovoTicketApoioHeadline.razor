@@ -52,13 +52,52 @@
 
         <div class="UploadZone">
             <input type="file" id="Ficheiro" name="Ficheiro" />
-            <label for="Ficheiro" class="botaoUpload">Colar Ficheiro</label>
+            <label for="Ficheiro" class="botaoUpload">
+                <span class="material-symbols-outlined">
+                    content_paste
+                </span>
+                Colar Ficheiro
+            </label>
+        </div>
+
+
+        <div class="TextoDeInformacao">
+            Este formulário recolhe os seus dados, para que o possamos contactar de volta. Para saber mais, consulte a nossa política de privacidade.
+        </div>
+
+        <!-- Checkmark 1 -->
+        <div style="display: flex; align-items: center; margin-top: 10px;">
+            <div class="@GetCheckmarkClass(isCheck1Checked)" @onclick="ToggleCheck1"></div>
+            <label class="TextoCheck1">Autorizo a Inforcávado a usar meus dados para contacto.</label>
+        </div>
+
+        <!-- Checkmark 2 -->
+        <div style="display: flex; align-items: center; margin-top: 5px;">
+            <div class="@GetCheckmarkClass(isCheck2Checked)" @onclick="ToggleCheck2"></div>
+            <label class="TextoCheck2">Lembrar-me para a próxima vez</label>
         </div>
 
         <!-- Botão de Envio -->
         <button type="submit" class="botaoEnviarTicket">Criar Ticket</button>
     </form>
 </header>
-@code {
 
+@code {
+    private bool isCheck1Checked = false;
+    private bool isCheck2Checked = false;
+
+    private void ToggleCheck1()
+    {
+        isCheck1Checked = !isCheck1Checked;
+    }
+
+    private void ToggleCheck2()
+    {
+        isCheck2Checked = !isCheck2Checked;
+    }
+
+    private string GetCheckmarkClass(bool isChecked)
+    {
+        return isChecked ? "Checkmark checked" : "Checkmark";
+    }
 }

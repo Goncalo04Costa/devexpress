@@ -1,8 +1,8 @@
 .News[b-4skcnw8fot] {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Centraliza horizontalmente todos os filhos */
+    justify-content: center; /* Centraliza verticalmente */
     height: 282px;
     background: #4C969E;
     padding: 0 130px;
@@ -16,7 +16,7 @@
     color: #0D0F0F;
     width: 684px;
     height: 79px;
-    text-align: center;
+    text-align: center; /* Texto centralizado */
     padding-bottom: 16px;
 }
 
@@ -27,42 +27,38 @@
     font-family: "Sora";
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+    text-align: center; /* Texto centralizado */
     padding-bottom: 32px;
 }
 
-/* Wrapper para posicionar o botão sobre a caixa de texto */
+/* Container da caixa de e-mail centralizada */
 .InputWrapper[b-4skcnw8fot] {
     position: relative;
     width: 538px;
     height: 48px;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
 }
 
-/* Caixa de texto inalterada, com padding-right para reservar espaço ao botão */
-.CaixaTexto[b-4skcnw8fot] {
-    width: 100%;
-    height: 100%;
+.caixaDETexto[b-4skcnw8fot] {
+    width: 538px;
+    height: 48px;
+    background: #FFFFFF;
     border: 1px solid #D1D8D8;
     border-radius: 8px;
-    padding: 12px;
-    padding-right: 138px; 
-    font-family: "Sora";
-    font-size: 12px;
-    outline: none;
+    opacity: 1;
 }
-
-/* Botão posicionado 4px do topo e do fundo, e 4px além da direita do container */
+/* Botão posicionado dentro da caixa, a 4px da direita */
 .BotaoSubscrever[b-4skcnw8fot] {
     position: absolute;
-    top: 6px;
-    left: 545px; /* Vai 4px além da borda direita do container */
-    bottom: 6px;
-    width: 142px; /* 138px (espaço reservado) + 4px extra */
-    background: #17585F;
-    color: #fff;
+    top: 4px; 
+    left: calc(100% - 113px - 4px); 
+    bottom: 4px;
+    width: 113px;
+    height: 40px;
+    background: #1B7C87;
     border: none;
-    border-radius: 0 8px 8px 0;
-    font-family: "Sora";
-    font-size: 12px;
+    border-radius: 8px;
+    color: #fff;
     cursor: pointer;
+    opacity: 1;
 }

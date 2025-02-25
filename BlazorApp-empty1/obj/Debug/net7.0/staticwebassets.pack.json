@@ -53,6 +53,14 @@
       "PackagePath": "staticwebassets\\imagens\\financeiro.PNG"
     },
     {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-docs-text.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-docs-text.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-excel.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-excel.svg"
+    },
+    {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-facebook.svg",
       "PackagePath": "staticwebassets\\imagens\\i-facebook.svg"
     },
@@ -63,6 +71,14 @@
     {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-linkedin.svg",
       "PackagePath": "staticwebassets\\imagens\\i-linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-other.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-other.svg"
+    },
+    {
+      "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-preview-artdocs.svg",
+      "PackagePath": "staticwebassets\\imagens\\i-preview-artdocs.svg"
     },
     {
       "Id": "C:\\Users\\gonca\\OneDrive\\Ambiente de Trabalho\\BlazorApp-empty1\\wwwroot\\imagens\\i-youtube.svg",
